@@ -1,0 +1,1407 @@
+===== Remotes (RemoteEvent / RemoteFunction / Bindable) =====
+ReplicatedStorage.UserGenerated.Analytics.ClientKit.Accept  [RemoteEvent]
+ReplicatedStorage.UserGenerated.Analytics.ClientKit.Fps  [RemoteEvent]
+ReplicatedStorage.UserGenerated.Analytics.ClientKit.LibMPDevice  [RemoteEvent]
+ReplicatedStorage.UserGenerated.Analytics.ClientKit.LibMPRequiring  [RemoteEvent]
+ReplicatedStorage.UserGenerated.Analytics.ClientKit.LibMPRequired  [RemoteEvent]
+ReplicatedStorage.UserGenerated.Analytics.ClientKit.LibMPFrame  [RemoteEvent]
+ReplicatedStorage.UserGenerated.Analytics.ClientKit.LiveRequest  [RemoteEvent]
+ReplicatedStorage.UserGenerated.Analytics.ClientKit.LiveResponse  [RemoteEvent]
+ReplicatedStorage.UserGenerated.FastFlags.SharedFastFlags.Update  [RemoteEvent]
+ReplicatedStorage.UserGenerated.ABTests.SharedABTests.Update  [RemoteEvent]
+ReplicatedStorage.CmdrClient.CmdrEvent  [RemoteEvent]
+ReplicatedStorage.CmdrClient.CmdrFunction  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/Scramble/Drones  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Scramble/Request  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/Scramble/Collect  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Scramble/State  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Scramble/Drops  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Scramble/RemoveDrops  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Scramble/Effect  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/PenRoster/AskDoff  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/PenRoster/AskLiveSnapshot  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/PenRoster/AskSale  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/PenRoster/AskWear  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/PenRoster/AskWearLimit  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/PenRoster/CoinsGathered  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskWearTool  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/EggWorld/FieldEggBatchShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/EggWorld/FieldEggCarry  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/EggWorld/FieldEggCycleCountdown  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/EggWorld/FieldEggGone  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/EggWorld/FieldEggRaritiesShown  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/EggWorld/FieldEggRedeemVerdict  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/EggWorld/FieldEggShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/EggWorld/OwnerDropped  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/EggWorld/OwnerShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/EggCapture/CutsceneBegan  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/EggCapture/StandingsRefreshed  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/IdleRescue/AskRescueHop  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/IdleRescue/SubmitIdleFlag  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/MonsterParasite/AskChestClaim  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/MonsterParasite/AskChestRevealComplete  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/MonsterParasite/AskChestTake  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/MonsterParasite/AskFeed  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/MonsterParasite/AskFullChargeReset  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MonsterParasite/AskGrowthSwap  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/MonsterParasite/AskSnapshot  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/MonsterParasite/ChestOpened  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MonsterParasite/EventStateShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MonsterParasite/FeedSettled  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MonsterParasite/StateShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/SeasonBanner/FetchState  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/SeasonBanner/FlagSeen  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/ShopCta/FetchState  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/ShopCta/FlagSeen  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Trials/Fetch  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/Trials/Refresh  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/FuseBiome/PortalTransition  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Fusery/BeginFuse  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Fusery/ConfirmBriefing  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Fusery/EjectPet  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Fusery/FinishReveal  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Fusery/LoadPet  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/PassGrants/Awarded  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/GearSatchel/Gained  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/GearSatchel/Lost  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/GroupPerk/RedeemPerk  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/GuardOnboarding/AskLiveState  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/GuardOnboarding/AskProgressSync  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/GuardOnboarding/LiveStateShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/GuardPatrol/AskEnabled  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/GuardPatrol/EnabledShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/GuardPatrol/ForestHandoff  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/GuardPatrol/ForestStrike  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/GuardPatrol/Rouse  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/GuardPatrol/SpeedTollOffer  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/GuardPatrol/SpeedTollWarning  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/GunGadget/AskDischarge  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/GunGadget/DropCaster  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Codex/AskRedeem  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Codex/AskRedeemAll  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Codex/AskRedeemLimitedEgg  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Codex/AskWearFieldBat  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/Referrals/InviteLanded  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LaserGadget/AskDischarge  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LaserGadget/EmitBeam  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LaserGadget/EmitSfx  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MagnetGadget/AskTug  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MagnetGadget/EmitBeam  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MagnetGadget/EmitTargetFx  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MagnetGadget/HaltBeam  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MagnetGadget/HaltTargetFx  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MegaphoneGadget/CloseEffectWindow  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MegaphoneGadget/EmitFx  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MegaphoneGadget/EmitSfx  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MegaphoneGadget/OpenEffectWindow  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MegaphoneGadget/Rouse  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Voting/Vote  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Leaderboards/Updated  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Leaderboards/Fetch  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/BossMastery/AskUseMutationConsumable  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/BossMastery/AskClaimMilestone  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/BossMastery/AskBuyShopItem  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/BossEvent/Vfx  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/BossEvent/StateShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/BossEvent/HealthShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/BossEvent/HazardHit  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/BossEvent/BossDamaged  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/BossEvent/BlackHoleHit  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/BossEvent/AskSnapshot  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/BossEvent/AskEnter  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/OnboardingQuestline/AskClaim  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/OnboardingQuestline/AskAcknowledge  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/RewardScreen/Show  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Rift/BannerRotated  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Rift/AskFinishReveal  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Rift/AskRefresh  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Rift/AskTradeIn  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Rift/AskState  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/ShrineFusion/Ritual  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/ShrineFusion/StateChanged  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/ShrineFusion/Feedback  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/ShrineFusion/AskSubmit  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/ShrineFusion/AskState  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/MonsterEvent/PlaySFX  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/MonsterEvent/RequestTeleport  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/MonsterEvent/WinPartsUpdated  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/MonsterEvent/GetWinParts  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/MonsterEvent/WinsUpdated  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/MonsterEvent/GetWins  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/ZoneProbe/AnchorForZone  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Treadmill/ViewStateShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Treadmill/SubmitClipView  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Treadmill/SpeedGained  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Treadmill/RenderStateShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Treadmill/RefreshClipCursor  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Treadmill/OverlaySnapshot  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/GaugeClipLength  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/Treadmill/AssignedBeltShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskWearStill  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskTierRaise  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskSlowToggleSet  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskSlowToggle  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskReplyPage  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskReplyFavour  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskReplyCounts  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskRenderSnapshot  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskPostReply  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskFriendFavourSnapshot  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskFavourSnapshot  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskDoff  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Treadmill/AskClipFavour  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/GravityDisruptor/Burst  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/GravityDisruptor/AskPlace  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/TrapPlacement/AskPlace  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Trailwear/WornTrailShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Trailwear/AskWornSnapshot  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Trailwear/AskPurchase  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Trailwear/AskDoff  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Trailwear/AskChoose  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/ToolTrigger/Trigger  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Lifecycle/BeginShutdown  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MineTrap/TrapSet  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MineTrap/AttachOutline  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/MineTrap/AskPlace  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Preferences/PreferenceShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Preferences/AskWrite  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/LuckWindow/StateRefreshed  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/LuckWindow/FetchState  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/Bloomery/PetalsGathered  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Bloomery/CutsceneOpened  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Bloomery/AskStrikeTree  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Bloomery/AskMutate  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Bloomery/AskLoadEgg  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Bloomery/AskHandoff  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Bloomery/AskGatherPetal  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Bloomery/AskEjectEgg  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Bloomery/AskCraneReturn  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Bloomery/AskBriefingConfirm  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/SharedFx/JoltOnce  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/ProfileMirror/ProfileDelta  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/ProfileMirror/FetchProfile  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/Limpness/WriteLimpness  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Storefront/ReceiptCleared  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Storefront/PurchaseSettled  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Storefront/PurchaseRejected  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Storefront/Awarded  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Storefront/AskServerProbe  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Storefront/AskPurchaseOffer  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Storefront/AllowPurchase  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/Gifting/Completed  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Gifting/AskGift  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/Gifting/PromptFinished  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Gifting/Received  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Homestead/StateShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Homestead/LitBaseOutline  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Homestead/DimBaseOutline  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Homestead/BaseTierRaised  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Homestead/AskState  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/Homestead/AskNearbyPurchase  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Homestead/AskLobbyHop  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Homestead/AskBaseTierRaise  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/AwayEarnings/SummaryRefreshed  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/AwayEarnings/Redeemed  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/AwayEarnings/PendingCheck  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/AwayEarnings/FetchSummary  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/AwayEarnings/AskCollect  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/RollbackRewards/ShowNotice  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Alerts/Raise  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Whodunnit/RoundShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/PenRoster/ConfirmEquipBestBadge  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/PenRoster/ConfirmPetsBadge  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/PenRoster/OwnerDropped  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/PenRoster/OwnerShifted  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LiveEvents/Began  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LiveEvents/Ended  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/LiveEvents/FetchCatalogue  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/LiveEvents/FetchRecurringEta  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/LiveEvents/FetchRunning  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/LiveEvents/FetchScheduled  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/AskClaimMilestone  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/AskCollectPowerUp  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/AskCollectRing  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/AskSelectTeam  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/LightVsDarkness/FetchPowerUps  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/LightVsDarkness/FetchRings  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/LightVsDarkness/FetchScore  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/PowerUpCollected  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/PowerUpsCleared  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/PowerUpsDropped  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/PowerUpsSky  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/RingCollected  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/RingRespawned  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/RingsCleared  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/RingsSpawned  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/ScoreChanged  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/LightVsDarkness/Struck  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/SammyEvent/AskCollectPickup  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/SammyEvent/FetchPickups  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/SammyEvent/PickupCollected  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/SammyEvent/PickupRespawned  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/SammyEvent/PickupsCleared  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/SammyEvent/PickupsSpawned  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/SammyEvent/BomberRow  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/SammyEvent/ElephantCharge  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Broadcasts/RaiseNotice  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/StaffConsole/GrantSelfEgg  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/StaffConsole/GrantSelfPet  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/StaffConsole/GrantVerdict  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/StaffConsole/ProbeStaffStatus  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/StaffConsole/SpeedPowerVerdict  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/StaffConsole/StaffVerdict  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/StaffConsole/WipeSelfProfile  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/StaffConsole/WipeVerdict  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/StaffConsole/WriteSpeedPower  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/StaffConsole/WriteWalkSpeed  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Telemetry/AskIdleHopFlush  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Telemetry/SubmitIdleHop  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/Telemetry/SubmitIdleState  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/PetSatchel/SellEveryPet  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/PetSatchel/SellSelection  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/PetSatchel/SellPet  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/PetSatchel/WriteFavourite  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/SoundBus/EmitSound  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/Haul/FetchAutoSell  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Haul/FetchWearBestStatus  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Haul/OfferFullSatchelSale  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Haul/WearBest  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/Haul/WriteAutoSell  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/BatSwing/Trigger  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/SwapGadget/AskSwap  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/SwapGadget/EmitFx  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/SwapGadget/EmitSfx  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/DanceGadget/AskDance  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/DanceGadget/AttachEffect  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/DanceGadget/DetachEffect  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/DanceGadget/EmitSfx  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/ChatFeed/ShowFromArgs  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/ChatFeed/ShowFromRecord  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/ChatFeed/ShowPlain  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/RigSync/AskRigWipe  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/RigSync/CorrectionBegan  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/RigSync/Primed  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/RigSync/ProbeSatchel  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/RigSync/Reconcile  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RE/RigSync/Refresh  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/RigSync/SeedSatchel  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Toasts/Line  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RE/Payouts/Shower  [RemoteEvent]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskDoffTool  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskEggRecord  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskFieldEggCarry  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskFieldEggDrop  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskFieldEggRarityShows  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskFieldEggSnapshot  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskFinishHatch  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskHatch  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskLiveSnapshot  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskPlaceEgg  [RemoteFunction]
+ReplicatedStorage.Packages.Networking.RF/EggWorld/AskSkipGrowth  [RemoteFunction]
+ReplicatedStorage.GearTools.ShopItems.BeeLauncher.BeeLauncherRemote  [RemoteEvent]
+ReplicatedStorage.GearTools.ShopItems.Trap.TrapRemote  [RemoteEvent]
+ReplicatedStorage.__ReplicatorInternal.RemoteEvent  [RemoteEvent]
+ReplicatedStorage.ContentCreatorRemotes.Request  [RemoteFunction]
+ReplicatedStorage.ContentCreatorRemotes.Update  [RemoteEvent]
+ReplicatedStorage.Api  [BindableEvent]
+
+===== ReplicatedStorage top-level children =====
+UserGenerated  [ModuleScript]
+CmdrClient  [ModuleScript]
+ProximityPrompt  [ProximityPrompt]
+TopbarPlusReference  [ObjectValue]
+MeshAssets  [Folder]
+AssetMutationTargets  [Folder]
+AssetMutationReplacements  [Folder]
+Shared  [Folder]
+Packages  [Folder]
+Mutations  [Folder]
+Assets  [Folder]
+Client  [Folder]
+Data  [Folder]
+GearTools  [Folder]
+Value  [StringValue]
+AssetModels  [Folder]
+CutsceneAssets  [Folder]
+__ReplicatorInternal  [Folder]
+ContentCreatorRemotes  [Folder]
+Api  [BindableEvent]
+
+===== workspace top-level children =====
+Camera  [Camera]
+__OBJECTS  [Folder]
+_Guards  [Folder]
+Stands  [Folder]
+Plots  [Folder]
+Map  [Folder]
+Chest  [Model]
+ObjectCache  [Folder]
+Eggs  [Folder]
+New Sounds  [Folder]
+RVBillboard_Cash_Reward  [Model]
+ObjectCache  [Folder]
+ObjectCache  [Folder]
+DrScrambleEvent  [Model]
+__DEBRIS  [Folder]
+SmartPromptPart  [Part]
+Terrain  [Terrain]
+Part  [Part]
+SpawnLocation  [SpawnLocation]
+Part  [Part]
+Mat3abuelas4k  [Model]
+abdoukaye83  [Model]
+bugok_1234zero  [Model]
+Yssangot_2  [Model]
+Manny8race2  [Model]
+Ron_Deva  [Model]
+LightDarkSubBiomeVfx  [Folder]
+ObjectCache  [Folder]
+DylanRizzyy  [Model]
+ScrambleLocalVisuals  [Folder]
+PlacedEggRenders  [Folder]
+ClientRenderedAssets  [Folder]
+__ClientTreadmillRenders  [Folder]
+AreaEggSlotsClient  [Folder]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+SmartPromptPart  [Part]
+
+===== ModuleScript keys (data lists) =====
+ReplicatedStorage.UserGenerated -> 
+ReplicatedStorage.UserGenerated.SharedConfig -> ClientMajorVersion, ClientMinorVersion, ClientVersion, GameId, PlaceId, PlaceVersion
+ReplicatedStorage.UserGenerated.Collections -> 
+ReplicatedStorage.UserGenerated.Collections.LeftistHeap -> Compare, new
+ReplicatedStorage.UserGenerated.Collections.RBTreeList -> Compare, new
+ReplicatedStorage.UserGenerated.Collections.SpatialTable -> new
+ReplicatedStorage.UserGenerated.Collections.DropTable -> Assert, AssertBuilder, AssertBuilderEntry, AssertEntry, Builder, IsA, IsABuilder, new
+ReplicatedStorage.UserGenerated.Concurrency -> 
+ReplicatedStorage.UserGenerated.Concurrency.Bindable -> Assert, AssertConnection, IsA, IsAConnection, new
+ReplicatedStorage.UserGenerated.Concurrency.Lock -> new
+ReplicatedStorage.UserGenerated.Concurrency.Cache -> new
+ReplicatedStorage.UserGenerated.Concurrency.Observable -> Unasserted, new
+ReplicatedStorage.UserGenerated.Analytics -> 
+ReplicatedStorage.UserGenerated.Analytics.ClientKit -> AcceptRemote, AssertData, AssertGameJoinContext, AssertJoinData, FocusStateRemote, FpsRemote, LibMPDeviceRemote, LibMPFrameRemote, LibMPRequiredRemote, LibMPRequiringRemote, LiveRequestRemote, LiveResponseRemote, MenuStateRemote, PingRemote
+ReplicatedStorage.UserGenerated.Analytics.MicroProfilerConfig -> ClientEventName, ContainerName, FramesAfter, FramesBefore, LaggyFrameMs, MaxDumpBytes, MaxFramesPerSession, MinFrameInterval, ModuleName, ServerEventName
+ReplicatedStorage.UserGenerated.Client -> 
+ReplicatedStorage.UserGenerated.Client.ClientFastFlags -> Assert, Get, IsA, IsLoaded, Loaded, Private, Replicated
+ReplicatedStorage.UserGenerated.Client.ClientABTests -> GetAssignmentsAsync, GetAttribute, GetAttributeAsync, GetAttributes, GetJobAssignments, GetJobAssignmentsAsync, GetJobAttribute, GetJobAttributeAsync, GetJobAttributes, IsLoaded, JobUpdated, Loaded, PlayerUpdated
+ReplicatedStorage.UserGenerated.IO -> 
+ReplicatedStorage.UserGenerated.IO.Base64 -> Decode, DecodeBuffer, Encode, EncodeBuffer
+ReplicatedStorage.UserGenerated.IO.Crypto -> 
+ReplicatedStorage.UserGenerated.IO.Crypto.HMAC -> Derive, DeriveString
+ReplicatedStorage.UserGenerated.IO.Crypto.SHA256 -> BlockSize, Digest, DigestBuffer, DigestToBuffer, Name, OutputSize
+ReplicatedStorage.UserGenerated.IO.Crypto.AES -> expandKey, fromKey, modes, new, pads
+ReplicatedStorage.UserGenerated.IO.Crypto.AES.Modes -> CBC, ECB, OFB, PCBC
+ReplicatedStorage.UserGenerated.IO.Crypto.AES.Pads -> None
+ReplicatedStorage.UserGenerated.IO.Crypto.SaltedEncryption -> Decrypt, DecryptString, Encrypt, EncryptString, GetRandomBytes, PBKDF2
+ReplicatedStorage.UserGenerated.IO.Crypto.Hash -> 
+ReplicatedStorage.UserGenerated.IO.Crypto.PositionalRandom -> DoubleFromInt64, DoubleFromUUID, IntegerFromUUID, Mix
+ReplicatedStorage.UserGenerated.IO.Crypto.MurmurHash3 -> Digest, DigestBuffer, DigestBufferCustom
+ReplicatedStorage.UserGenerated.IO.Crypto.SHA224 -> BlockSize, Digest, DigestBuffer, DigestToBuffer, Name, OutputSize
+ReplicatedStorage.UserGenerated.IO.Crypto.SHA1 -> BlockSize, Digest, DigestBuffer, DigestToBuffer, Name, OutputSize
+ReplicatedStorage.UserGenerated.IO.Crypto.SHA512 -> BlockSize, Digest, DigestBuffer, DigestToBuffer, Name, OutputSize
+ReplicatedStorage.UserGenerated.IO.Crypto.CRC32 -> Digest, DigestBuffer, Finish, Init, Update, UpdateBuffer
+ReplicatedStorage.UserGenerated.IO.Crypto.SHA384 -> BlockSize, Digest, DigestBuffer, DigestToBuffer, Name, OutputSize
+ReplicatedStorage.UserGenerated.IO.Crypto.MD5 -> BlockSize, Digest, DigestBuffer, DigestToBuffer, Name, OutputSize
+ReplicatedStorage.UserGenerated.IO.HTTP -> AssertCompress, AssertMethod, AssertParams, Execute
+ReplicatedStorage.UserGenerated.IO.HTTP.URL -> AssertEncodeParams, AssertHost, AssertParams, AssertPath, AssertPort, AssertProtocol, Build, EncodeParams, EncodePath
+ReplicatedStorage.UserGenerated.IO.JSON5Decoder -> Decode, Null
+ReplicatedStorage.UserGenerated.IO.JSONEncoder -> Compact, Compact5, CompactExt, Pretty, Pretty5, PrettyExt
+ReplicatedStorage.UserGenerated.IO.LibDeflate -> Adler32, CompressDeflate, CompressDeflateWithDict, CompressZlib, CompressZlibWithDict, CreateCodec, CreateDictionary, DecompressDeflate, DecompressDeflateWithDict, DecompressZlib, DecompressZlibWithDict, internals
+ReplicatedStorage.UserGenerated.Roblox -> 
+ReplicatedStorage.UserGenerated.Roblox.PolicyServiceHelper -> ExternalLinkReference, ExternalLinkReferencesToInts, GetPolicyInfoForPlayerAsync
+ReplicatedStorage.UserGenerated.Roblox.MarketplaceServiceHelper -> AssertReceiptInfo, GetInfoAsync
+ReplicatedStorage.UserGenerated.Roblox.GroupServiceHelper -> Cache, GetGroupsAsync
+ReplicatedStorage.UserGenerated.Roblox.LocalizationServiceHelper -> GetCountryRegionForPlayerAsync
+ReplicatedStorage.UserGenerated.Roblox.VoiceChatServiceHelper -> IsVoiceEnabledForUserIdAsync
+ReplicatedStorage.UserGenerated.Roblox.DeviceForm -> DetectorVersion, Get, GetPlatform
+ReplicatedStorage.UserGenerated.FastFlags -> Assert, Get, IsA, IsLoaded, Loaded, Private, Replicated
+ReplicatedStorage.UserGenerated.FastFlags.SharedFastFlags -> NullValue, UpdateRemote
+ReplicatedStorage.UserGenerated.Strings -> 
+ReplicatedStorage.UserGenerated.Strings.ObjectPaths -> HasHierarchicalOverlap, QueryObject
+ReplicatedStorage.UserGenerated.Strings.Stringify -> CompileOrder, DEFAULT_CONFIG, Default, DefaultArgs, DefaultArgsPrefix, Pretty, Serialize
+ReplicatedStorage.UserGenerated.Logging -> AssertLevel, GetLevel, Levels, SetLevel, Sink
+ReplicatedStorage.UserGenerated.ABTests -> GetAssignmentsAsync, GetAttribute, GetAttributeAsync, GetAttributes, GetJobAssignments, GetJobAssignmentsAsync, GetJobAttribute, GetJobAttributeAsync, GetJobAttributes, IsLoaded, JobUpdated, Loaded, PlayerUpdated
+ReplicatedStorage.UserGenerated.ABTests.SharedABTests -> ABTestDefaults, UpdateRemote
+ReplicatedStorage.UserGenerated.Randoms -> DefaultXorshift128, UniqueXorshift128, Xorshift128
+ReplicatedStorage.UserGenerated.Randoms.Base -> 
+ReplicatedStorage.UserGenerated.Randoms.Xorshift128 -> R, Unique, new
+ReplicatedStorage.UserGenerated.Randoms.Xorshift128.Theory -> FromColumnVector128, MatTransform, ToColumnVector128, Transform
+ReplicatedStorage.UserGenerated.Randoms.ISAAC -> R, Unique, new
+ReplicatedStorage.UserGenerated.Math -> 
+ReplicatedStorage.UserGenerated.VFX -> 
+ReplicatedStorage.UserGenerated.SFX -> 
+ReplicatedStorage.UserGenerated.Lottie.Easing -> Evaluate, EvaluateBezierShape, EvaluateColor, EvaluateScalar, EvaluateScalarAtFrame, EvaluateVector, LerpArray, SolveCubicBezier
+ReplicatedStorage.UserGenerated.Lottie.PNG -> decode, encode
+ReplicatedStorage.UserGenerated.Lottie.PNG.zlib -> deflate, inflate
+ReplicatedStorage.UserGenerated.Lottie.PNG.Types -> 
+ReplicatedStorage.UserGenerated.Lottie.PNG.chunks -> IHDR, PLTE, tRNS
+ReplicatedStorage.UserGenerated.DataModel -> capture
+ReplicatedStorage.UserGenerated.DataModel.Encode -> fastIndex, newWriter, writeValue
+ReplicatedStorage.UserGenerated.DataModel.Reflection -> getReadProperties
+ReplicatedStorage.UserGenerated.Lang -> 
+ReplicatedStorage.UserGenerated.Lang.Asserts -> ASCII, ASCIIRange, AllOf, Animation, Any, AnyOf, AnyTable, Array, ArrayCoerce, Base64, BasePart, Boolean, Buffer, CFrame, CFrameFinite, Default, Enum, EnumValue, Equals, Finite, FiniteNonNegative, FinitePositive, Function, HexLower, HexUpper, Humanoid, Index, Instance, InstanceClass, InstanceOf, Integer, IntegerNonNegative, IntegerPositive, IntegerRange, IsASCII, IsCFrameFinite, IsFinite, IsInteger, IsVector2Finite, IsVector3Finite, IsoDate, Map, MapCoerce, MeshPart, Model, Networkable, NoMetata
+ReplicatedStorage.UserGenerated.Lang.Janitor -> new
+ReplicatedStorage.UserGenerated.Lang.Tests -> ColorEqual, DeepEqual, Equal, Error, ErrorUnsafe, FuzzyEqual, IsEqual
+ReplicatedStorage.CmdrClient -> ActivationKeys, ActivationUnlocksMouse, Dispatcher, Enabled, Events, HandleEvent, Hide, HideOnLostFocus, MashToEnable, PlaceName, Registry, RemoteEvent, RemoteFunction, ReplicatedRoot, SetActivationKeys, SetActivationUnlocksMouse, SetEnabled, SetHideOnLostFocus, SetMashToEnable, SetPlaceName, Show, Toggle, Util
+ReplicatedStorage.CmdrClient.CmdrInterface.Window -> AddLine, AutoComplete, BeginInput, ClearHistoryState, Cmdr, GetEntryText, GetLabel, Hide, HideInvalidState, IsVisible, LoseFocus, OnTextChanged, ProcessEntry, SelectVertical, SetEntryText, SetIsValidInput, SetVisible, Show, TraverseHistory, UpdateLabel, UpdateWindowHeight, Valid
+ReplicatedStorage.CmdrClient.Shared.Argument -> GetAutocomplete, GetDefaultAutocomplete, GetTransformedValue, GetValue, ParseValue, Transform, TransformSegment, Validate, __index, new
+ReplicatedStorage.CmdrClient.Shared.Command -> BroadcastEvent, GatherArgumentValues, GetArgument, GetData, GetLastArgument, GetStore, HasImplementation, Parse, Reply, Run, SendEvent, Validate, __index, new
+ReplicatedStorage.CmdrClient.Shared.Util -> DictionaryKeys, Each, EmulateTabstops, EncodeEscapedOperator, EncodeEscapedOperators, GetNames, GetTextSize, MakeAliasCommand, MakeDictionary, MakeEnumType, MakeFuzzyFinder, MakeListableType, MakeSequenceType, Map, MashExcessArguments, Mutex, ParseEscapeSequences, ParsePrefixedUnionType, RunCommandString, RunEmbeddedCommands, SplitPrioritizedDelimeter, SplitString, SplitStringSimple, SubstituteArgs, TrimString
+ReplicatedStorage.CmdrClient.Commands.help -> Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.gotoPlace -> Aliases, Args, AutoExec, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.kick -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.kill -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.respawn -> Args, AutoExec, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.teleport -> Aliases, Args, AutoExec, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.blink -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.fetch -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.getPlayerPlaceInstance -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.position -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.thru -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.uptime -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.version -> Args, Description, Group, Name, Run
+ReplicatedStorage.CmdrClient.Commands.alias -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.bind -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.clear -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.convertTimestamp -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.echo -> Aliases, Args, Description, Group, Name, Run
+ReplicatedStorage.CmdrClient.Commands.edit -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.history -> Aliases, Args, AutoExec, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.hover -> Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.jsonArrayDecode -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.jsonArrayEncode -> Aliases, Args, Description, Group, Name, Run
+ReplicatedStorage.CmdrClient.Commands.len -> Aliases, Args, Description, Group, Name, Run
+ReplicatedStorage.CmdrClient.Commands.math -> Aliases, Args, AutoExec, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.pick -> Aliases, Args, Description, Group, Name, Run
+ReplicatedStorage.CmdrClient.Commands.rand -> Aliases, Args, Description, Group, Name, Run
+ReplicatedStorage.CmdrClient.Commands.replace -> Aliases, Args, AutoExec, Description, Group, Name, Run
+ReplicatedStorage.CmdrClient.Commands.resolve -> Aliases, Args, AutoExec, Description, Group, Name, Run
+ReplicatedStorage.CmdrClient.Commands.run -> Aliases, Args, AutoExec, Description, Group, Name, Run
+ReplicatedStorage.CmdrClient.Commands.runLines -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.runif -> Aliases, Args, Description, Group, Name, Run
+ReplicatedStorage.CmdrClient.Commands.unbind -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.var -> Aliases, Args, AutoExec, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.varSet -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalSpawnRareEgg -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.spawnRareEgg -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.dragonSkip -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.reserve -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalAdminTreadmill -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalMutationBoost -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalSpeedBoost -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalEarningsBoost -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalEggSizeBoost -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalEggLuckBoost -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.registerTreadmillMedia -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.giveMoney -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalAnnouncement -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.announcement -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.viewTreadmillMediaOverlay -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.Fly -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.JumpPower -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.startEvent -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.stopEvent -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalStartEvent -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalStopEvent -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.startNight -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.nightDuration -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.resetEggCycle -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalScheduleEvent -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalRemoveScheduledEvent -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalListSchedule -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalProgressEggHatchTime -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalStartGrowthBoost -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.progressEggHatchTime -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.setSpeedPower -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.giveSpeedPower -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.setMoney -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.zoneReveal -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.createPrivate -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.sakuraCutscene -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.zone -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.giveSakuraCrystals -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.sakuraUnlock -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.dragonCutscene -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.removeTreadmillMedia -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.earningsBoost -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.expandedLobbyTeleport -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.giveEgg -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.givePet -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.currentTreadmillMedia -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.giveParasiteEgg -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.captureTheEgg -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalCaptureTheEgg -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.pullProdData -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.giveMonstrousEgg -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.announceControlledSammy -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.forceBossDefeat -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.giveBossTokens -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.afkTestGroup -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.abTestGroup -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.openBossWindow -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.onboardingQuestline -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.experimentVariant -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.afkRestore -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.riftSimulate -> Aliases, Args, ClientRun, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.riftReroll -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.liveEventFlag -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.ban -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.unban -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.subBiome -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.resetShrineFusion -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.fuseBiomeUnlock -> Aliases, Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.lightDarkReveal -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.fallenPowerUp -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalSetFargateInstances -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.globalGetFargateInstances -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.giveItem -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.completeIndex -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.creatorPreview -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.announceAsSelf -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.sendToCreator -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.sendToPlayer -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.scramble -> Args, Description, Group, Name
+ReplicatedStorage.CmdrClient.Commands.giveSamples -> Args, Description, Group, Name
+ReplicatedStorage.Shared.SettingsInfo -> AFK, CreatorPanel, DisableVideos, HideOtherPets, HideSelfPets, Music, SFX, SeenNavigationHint, VirtualCursor
+ReplicatedStorage.Shared.NotificationItem -> Describe, Schema
+ReplicatedStorage.Shared.SettingsCmds -> Allows, Changed, Flag, Flip, Projected, Write
+ReplicatedStorage.Shared.Save -> AnnounceLocalField, ApplyLocalField, ApplyLocalFieldEntry, Cache, FieldChanged, FieldSignal, Get, IsLocalDataLoaded, PeerFieldChanged, PeerProfileChanged, PeerProfileReady, Prefetch, ProfileChanged, ProfileDropped, ProfileReady, ReadUnguarded, WatchFields
+ReplicatedStorage.Shared.environment -> placeType
+ReplicatedStorage.Shared.TreadmillVideoController -> GetActiveMediaEntry, GetCurrentMediaEntry, GetMediaEntryByKey, GetStoppedIconImage, MediaChanged, ResolveCoverImage, SetShareButtonVisible, Start, Stop, Stopped, SuppressScreenTap
+ReplicatedStorage.Shared.TreadmillVideoController.CommentsController -> Close, Deactivate, IsAvailable, Start, Toggle, ToggleLike
+ReplicatedStorage.Shared.TreadmillVideoController.CommentsController.CommentRenderer -> Create
+ReplicatedStorage.Shared.TreadmillVideoController.CommentsController.PhotoInputController -> Destroy, GetImageAssetId, Reset, __class, __index, _closeOverlay, _init, _setAttachment, new
+ReplicatedStorage.Shared.TreadmillVideoController.FeedSequencer -> CreateRuntime, Current, ExportState, IsLegalTransition, IsReleaseTrackingStateCurrent, Next, Previous, ResolveReleaseTrackingState, StatesEqual
+ReplicatedStorage.Shared.TreadmillVideoController.FriendLikesController -> Destroy, HandleMediaChanged, HandleScreenTap, HideProfilePreview, SuppressScreenTap, UpdatePresentation, __class, __index, _cancelProfileTween, _clearRows, _getMediaKey, _getProfileHiddenPosition, _getRequestedMediaKeys, _hideProfileImmediate, _init, _isAlive, _requestFriendLikeSnapshot, _requestFriendLikeSnapshotAsync, _resolveDisplayName, _showProfilePreview, _startRefreshLoop, new
+ReplicatedStorage.Shared.TreadmillVideoController.LikeController -> Destroy, HandleScreenTap, SuppressScreenTap, Toggle, UpdatePresentation, __class, __index, _applyLocalLikedState, _getMediaKey, _handleDoubleTap, _init, _isAlive, _reconcileLikedState, _requestLikeSnapshot, _requestLikeSnapshotAsync, _setLikedState, _setRuntimeLikedState, _spawnHeartAnimation, _startRefreshLoop, new
+ReplicatedStorage.Shared.TreadmillVideoController.VideoFramePool -> new
+ReplicatedStorage.Shared.TreadmillVideoController.RecommendationSignals -> BeginView, EndView, HasActiveView, MarkEnded, NotifyCommentPosted, NotifyLikeResult, NotifyShared
+ReplicatedStorage.Shared.TreadmillVideoController.RecommendationFeedSource -> GetReadyItem, Next, PeekAhead, PrefetchFeed, Previous
+ReplicatedStorage.Shared.TreadmillVideoController.RecommendationFlags -> ConfigName, ConfigSwapSpreadSeconds, Enabled, FailureCooldownSeconds, FetchRetryDelaySeconds, PageSize, PrefetchJitterSeconds, PrefetchMargin, StaleSeconds
+ReplicatedStorage.Shared.TreadmillVideoController.Media -> 1, 10, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 11, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 12, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 13, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 14, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 15, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 16, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 17, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 18, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 19, 190, 19
+ReplicatedStorage.Shared.TreadmillVideoController.Types.Schema -> MusicImageMediaEntry, TreadmillMediaBucketType, TreadmillMediaEntries, TreadmillMediaEntry, TreadmillMediaFeedState, VideoBackgroundMusic, VideoMediaEntry
+ReplicatedStorage.Shared.Settings -> CoinGrabDistance, ForcedPortrait, MusicVolume, SoundsVolume, StatsNoFreeze, SupportsPortrait, SupportsVR, UIEasingStyle
+ReplicatedStorage.Shared.Audio -> Configure, CreateConfigured, CreateMusic, Cue, Fade, Play, PlayFile, PlaySound
+ReplicatedStorage.Shared.Player -> Animator, CFrame, Camera, Character, DisplayName, EmbeddedMotor6D, FeetCFrame, Get, GetAppliedDescription, GetDistanceFrom, Head, Humanoid, HumanoidRootPart, IsWithinRange, LeftAnkle, LeftElbow, LeftFoot, LeftHand, LeftHip, LeftKnee, LeftLowerArm, LeftLowerLeg, LeftShoulder, LeftUpperArm, LeftUpperLeg, LeftWrist, LowerTorso, Mouse, Name, Neck, Optional, Part, Player, PlayerGui, Position, PrimaryPart, PrimaryPartCFrame, PrimaryPartPosition, RightAnkle, RightElbow, RightFoot, RightHand, RightHip, 
+ReplicatedStorage.Shared.Remotes -> Alerts, AwayEarnings, BatSwing, Bloomery, BossEvent, BossMastery, Broadcasts, ChatFeed, Codex, DanceGadget, EggCapture, EggWorld, FuseBiome, Fusery, GearSatchel, Gifting, GravityDisruptor, GroupPerk, GuardOnboarding, GuardPatrol, GunGadget, Haul, Homestead, IdleRescue, LaserGadget, Leaderboards, Lifecycle, LightVsDarkness, Limpness, LiveEvents, LuckWindow, MagnetGadget, MegaphoneGadget, MineTrap, MonsterEvent, MonsterParasite, OnboardingQuestline, PassGrants, Payouts, PenRoster, PetSatchel, Pref
+ReplicatedStorage.Shared.DisplayNameOverride -> 10751598093, 2735356267
+ReplicatedStorage.Shared.CreatorCommands -> 1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2, 20, 21, 22, 23, 24, 3, 4, 5, 6, 7, 8, 9
+ReplicatedStorage.Shared.AdminItemCatalog -> Choices, Directory, IdByChoice
+ReplicatedStorage.Shared.Experiments.Definitions -> Directory, Ids, Lookup
+ReplicatedStorage.Shared.Globals.Constants -> ASSET_BALANCING_GIGA_MULTIPLIER, ASSET_BALANCING_PROGRESS_INCREMENT_PERCENT, BACKPACK, BASE_ASSETS_WALK_SPEED, BASE_CARRY_POWER, BASE_FRAME_RATE, BASE_JUMP_HEIGHT, BASE_WALK_SPEED, BLOODLIT_BACKPACK_BONUS, BLOODLIT_EVENT_WEIGHT_REQ, BRAINROT_MAX_HATCH_PER_REQUEST, BUTTON_FX, CLIENT_OVERLAP_MARGIN, DEFAULT_BASE_LOCK_DURATION, GROUP_ID, INVENTORY_SLOT_PURCHASE_INCREMENT, IS_CLIENT, IS_MOBILE, IS_PRIVATE_SERVER, IS_SERVER, IS_STUDIO, JOIN_BADGE, LUCKY_BLOCK_TOOL_NAME, MAIN_DEV_ID, MAX_INVENTORY_SLO
+ReplicatedStorage.Shared.Utils.Time -> Elapsed, Timecode
+ReplicatedStorage.Shared.Utils.Numeric -> Binomial, IsFiniteCFrame, PickWeightedWith, Shuffle
+ReplicatedStorage.Shared.Utils.Interpolation -> Ease, PlanarCurve, SpatialCurve
+ReplicatedStorage.Shared.Utils.Collections -> IsVacant, Matches, MatchesFast, Seal, Size
+ReplicatedStorage.Shared.Utils.Codec -> CFrameFromComponents, ComponentsFromCFrame, Crc32, NewUid
+ReplicatedStorage.Shared.Utils.Spatial -> Between, Bounds, ContainsPoint, DominantUpAxis, ModelBounds, ProximityGate, ScreenSpaceVolume, VisibleBounds
+ReplicatedStorage.Shared.Utils.Instances -> Is, PlayAnimation, Tween, TweenOnce, Weld
+ReplicatedStorage.Shared.Utils.VFX -> Discard, Emit, EmitTree, RateForDistance, Rescale, ScaleSequence
+ReplicatedStorage.Shared.Utils.Layout -> CenterAnchor, EnsureScale, ScaleUDim2, SetLabelWithShadow, SwapGradient
+ReplicatedStorage.Shared.Utils.VisualTransform -> Fade, Resizer
+ReplicatedStorage.Shared.Utils.PlayerUtils -> CountPresent, DisplayName, FriendsInServerAttribute, FromTool, IdList, Name, NearestWithin, RosterUpdated, Thumbnail
+ReplicatedStorage.Shared.Utils.GuardEscape -> RequiredSpeedPower
+ReplicatedStorage.Shared.Utils.Physics -> DisableAllPhysics, SetAnchored, SetCollisionGroup
+ReplicatedStorage.Shared.Utils.Numbers -> AddCommas, Parse
+ReplicatedStorage.Shared.Utils.FrameStepper -> OnHeartbeat, OnRender
+ReplicatedStorage.Shared.Utils.Marketplace -> Info, Lookup, Price
+ReplicatedStorage.Shared.Utils.AnimationAssets -> Get
+ReplicatedStorage.Shared.Utils.Warmup -> BuildProfileDispatch, ResolveAssetId, WarmAssets, WarmSounds
+ReplicatedStorage.Shared.Eggs.Types -> 
+ReplicatedStorage.Shared.Eggs.EggHatchAnimation -> FadeSoundWhenGrantedToolUnequips, Play
+ReplicatedStorage.Shared.Eggs.NightEggTimeSkipAnimation -> AcknowledgeRecord, CancelVisual, Destroy, GetAppliedSecondsValue, IsBillboardFadeFinished, IsComplete, SetTransform, __class, __index, _applyShake, _createPresentation, _fadeVisuals, _finishVisuals, _getAppliedSecondsAt, _getGrowthScaleAt, _init, _playTextFinish, _refreshNightScaleRange, _setAppliedSeconds, _start, _updateModel, new
+ReplicatedStorage.Shared.Eggs.EggActionMovement -> Remove, SetPivot
+ReplicatedStorage.Shared.Eggs.EggPlaceAnimation -> CreateDirtChunk, CreateDirtDecal, CreateImpactRing, Play, PlaySfx, SpawnDirtChunks
+ReplicatedStorage.Shared.Eggs.EggToolDisplay -> Destroy, GetToolUid, IsEggTool, SyncParasite, __class, __index, _init, new
+ReplicatedStorage.Shared.Eggs.EggSkipAnimation -> Play
+ReplicatedStorage.Shared.Eggs.PlacedEggRenderer -> ActivateLocalEgg, AppendRaycastTargets, DestroyOwner, GetRenderFolder, LocalEggHatchStarted, Refresh, RequestSkipGrowthForLocalEgg, SetAllHidden, SetPromptsSuppressed
+ReplicatedStorage.Shared.Eggs.PlacedEggGrowthPresentationPolicy -> GetDirectGrowthTweenRemainingSeconds, GetGrowthAlpha, GetGrowthScaleDeltaSkipReason, GetNaturalGrowthSkipReason, GetRemainingGrowthSeconds, GetSkipReason, GetStartScale, GetTargetScale, GetVisualScale, IsReady, LogSkipped
+ReplicatedStorage.Shared.Eggs.EggGrowthAnimation -> Cancel, Destroy, IsPlaying, Play, SetBasePivot, __class, __index, _resetVisual, new
+ReplicatedStorage.Shared.Eggs.PlacedEggReadyPulse -> Cancel, Destroy, IsPlaying, Play, SetTransform, __class, __index, _createHighlight, _destroyHighlight, _resetVisual, new
+ReplicatedStorage.Shared.Eggs.EggPlacementRaycast -> Raycast
+ReplicatedStorage.Shared.Eggs.PlacedEggBillboard -> DestroyOwner, RemoveEntry, SetEntry, SetNightPresentationActive
+ReplicatedStorage.Shared.Eggs.GrowingEggListRow -> Destroy, Mount, Update
+ReplicatedStorage.Shared.Eggs.EggRenderer -> ApplyPlacedCollisionPolicy, DisableCollisions, GetAuthoredScale, GetTemplate, GetVisibleBounds, RenderVisual
+ReplicatedStorage.Shared.Eggs.EggMechaUpgradeAnimation -> Play
+ReplicatedStorage.Shared.Eggs.ParasiteVisual -> Attach, Clear, PoseDrift, PrepareYankClone
+ReplicatedStorage.Shared.Eggs.EggEnergyOrbField -> Absorb, Destroy, Step, __class, __index, _createOrb, _resetOrb, new
+ReplicatedStorage.Shared.Eggs.MutationConsumableFeedback -> PlayFailure, PlaySuccess
+ReplicatedStorage.Shared.Flags.GameFlags -> BlockRepeatSingleProductPurchases, DisableWorldFrontend, DistantPetUpdateDistance, DistantPetUpdateInterval, ForbiddenIslandEnabled, FriendBoostCap, FriendBoostPercentPerFriend, GreatBloomEnabled, HiddenPetUpdateInterval, LegacyPrompting, PetUpdateSchedulingEnabled, Purchases, SFX
+ReplicatedStorage.Shared.Flags.GuardTutorialFlags -> PauseNotificationEnabled
+ReplicatedStorage.Shared.Flags.TreadmillFlags -> CameraAutoFrameDisabled, CommentsDisabled, PhoneEnabled, PolicyServiceVideoEnabled, VideoPlayerDisabled
+ReplicatedStorage.Shared.Flags.MonsterParasiteFlags -> Enabled, RewardWeights, SpawnChanceByArea
+ReplicatedStorage.Shared.Flags.BossEventFlags -> BossMaxHealth, ContentEnabled, CrystalHealthPerPlayer, Enabled, HealthScalesWithPlayers, PlayerHitDamage, SpawnCountdownSeconds, WindowDurationSeconds
+ReplicatedStorage.Shared.Flags.BossMasteryFlags -> CashBoosterDurationSeconds, CashBoosterMultiplier, EggGrowthBoostDurationSeconds, EggGrowthBoostMultiplier, InfiniteBannerWeights, InfiniteRewardEveryKills, InfiniteRewardId, LuckBoostDurationSeconds, LuckBoostExtraPercent, MilestoneKillOverrides, MilestoneRewardIdOverrides, MutationConsumableSuccessPercent, ShopPriceOverrides, ShopProductIds, SpeedBoostDurationSeconds, SpeedBoostMultiplier, TokenBoostPercentOverrides, TokensPerKill, TrapsPerPurchase, TreadmillBoostDurationSeconds, TreadmillBoos
+ReplicatedStorage.Shared.Flags.RiftFlags -> AllowDuplicatePets, BannerRanges, BannerWeights, EasyBand, ExcludedPets, ExtendBelow, FreeRefreshesPerDay, HardPenalty, MaxEasyPets, MaxHardPets, MaxNonEasyPets, MaxRecipeAttempts, MaxSpawnChance, MediumBand, MinSpawnChance, PetWeights, PityResetsOnNaturalWin, PityThreshold, PityWeights, RecipesEnabled, RequireEasyPet, RerollOnRotation, RotationSeconds, SlotOverrides, SpawnAreaId, SpeedPowerRequirement, ZoneLadderOverride
+ReplicatedStorage.Shared.Flags.OnboardingQuestlineFlags -> AutoOpenEnabled, DurationSeconds, Enabled, QuestTargets
+ReplicatedStorage.Shared.Flags.LiveEventFlags -> Directory, Get, IsKnown, Names
+ReplicatedStorage.Shared.Flags.ShrineFusionFlags -> AllowStolenDNA, EggInventoryLimit, Enabled, FixedRewardScale, PreserveInputScale, PreserveMutations, PreservePersonality, Recipes, RetrySeconds, RewardNeverEarnsLess, RewardScaleMultiplier, RitualSeconds
+ReplicatedStorage.Shared.Flags.LightVsDarknessEventFlags -> CollectRadiusPadding, FlyHeightStuds, FlyingLeanEnabled, GuardCirclesByArea, GuardRingRadii, LatePowerUpZoneChance, LatePowerUpZones, MagnetRadiusStuds, MilestoneSpeedBoostSeconds, PowerUpCometScale, PowerUpDropPunchEnabled, PowerUpDropRevampEnabled, PowerUpDropSoundsEnabled, PowerUpDropVfxEnabled, PowerUpDurationSeconds, PowerUpFallHeightStuds, PowerUpFallSeconds, PowerUpLandShakeEnabled, PowerUpLandShakeRadiusStuds, PowerUpRingMultiplier, PowerUpSafeZoneMarginStuds, PowerUpSkyLiftEnabled, Powe
+ReplicatedStorage.Shared.Flags.GravityDisruptorFlags -> LingerSeconds, MaxPlaced, ProjectSeconds, SlowPercent
+ReplicatedStorage.Shared.Flags.SammyEventFlags -> BenCarrySpeedMalus, BrainrotCarrySpeedMalus, BrainrotScaleInSeconds, BrainrotsPerPlayer, CageHealthPerPlayer, CollectRadiusPadding, EmpChargePerPickupMaxPlayers, EmpChargePerPickupMinPlayers, LaserFireSeconds, MagnetRadiusStuds, PickupRespawnSeconds, PickupSpacingStuds, SammyBomberEnabled, SammyBomberMaxSeconds, SammyBomberMinSeconds, SammyChaseGraceSeconds, SammyChaseRadiusStuds, SammyElephantsEnabled, SammyFlatRadiusStuds, SammyGroundSlamEnabled, SammyHitDistanceStuds, SammyRagdollSeconds, Sam
+ReplicatedStorage.Shared.Flags.BalanceConfig -> Bind, Changed
+ReplicatedStorage.Shared.Flags.GameplayBalance -> AdRewards, AdminBoostLimits, AreaEggCycle, AreaLuck, BatClient, BatServer, BeeLauncher, CaptureEvent, CarryPenalty, DemonicEvent, DragonEvent, DroppedEggs, Earnings, EggInventory, EggProducts, Eggs, Fusion, GamepassBenefits, GroupRewardEligibility, GuardAttack, GuardChase, GuardImpulse, GuardKnockback, GuardMovement, GuardPrediction, GuardRecovery, GuardRequirements, GuardRetrieval, GuardReturn, Lottery, NewPlayer, Ragdoll, RecoveryEvent, SakuraInteraction, SellRewards, ServerLuck, SlapImpulse, 
+ReplicatedStorage.Shared.Flags.StaffTagFlags -> Changed, Enabled, Roles
+ReplicatedStorage.Shared.Flags.ScrambleMutationFlags -> SuccessPercent
+ReplicatedStorage.Shared.Modules.TreadmillMediaCommentsConfig -> COMMENT_COUNT_KEYS_PER_REQUEST, COMMENT_PAGE_SIZE, MAX_COMMENT_CHARACTERS
+ReplicatedStorage.Shared.Modules.BetterRandom -> Vector2, Vector3, __class, __index, boolean, clone, flatVector3PositiveY, handle, integer, integerArray, jitter, new, normal, number, numberArray, positiveYVector3, seed
+ReplicatedStorage.Shared.Modules.AssetModels -> Await, GetAssetModelIfReplicated, GetAssetModelsFolder, GetBaseModelScale, GetVisibleBoundsData, Resolve, SyncAllScales, SyncScaleFor
+ReplicatedStorage.Shared.Modules.Ragdoll -> ApplyClientRagdoll, ClearClientRagdoll, ClientRagdollRemote, IsRagdolled, NpcRagdoll, Ragdoll, TimedRagdoll, TimedRagdollAsync, Unragdoll
+ReplicatedStorage.Shared.Modules.AssetInvertedModelPresentation -> Invert
+ReplicatedStorage.Shared.Modules.CoreProfileManager -> Get, GetAll, GetAssert, GetAsync, IsProfileRegistered, ProfileAdded, ProfileRemoving, Remove, Set, __index, is, new
+ReplicatedStorage.Shared.Modules.TreadmillMediaIdentity -> BuildMediaKeys, GetMediaKey, GetMediaKeyShardIndex
+ReplicatedStorage.Shared.Modules.TreadmillMediaIdentity.Types.Interface -> 
+ReplicatedStorage.Shared.Modules.RateLimiter -> AllowOnce, AllowPerSecond, DefaultBanLength, DefaultWarn, LogTemplates, Message, new
+ReplicatedStorage.Shared.Modules.DefaultStats -> AutoSellRarities, BaseUpgradeLevel, BestGuardRunDistance, BestRollDenominator, BossMastery, BossTokens, ClaimedCodes, ClaimedGroupReward, ClaimedLikeMilestoneIds, CommentedTreadmillMedia, CreatorSandboxMoney, CreatorSandboxProgress, CreatorSandboxTokens, CurrentAreaEggClaims, DismissedGroupRewardPrompt, EarningsBoostExpiresAt, EggInventory, EquippedAssets, FreeGiftsActiveStartedAt, FreeGiftsClaimed, FreeGiftsLastResetDay, FreeGiftsStartedAt, FreeGiftsTime, FusionDuration, FusionEggReward, Fusion
+ReplicatedStorage.Shared.Modules.DefaultStats.Defaults -> AutoSellRarities, BaseUpgradeLevel, BestGuardRunDistance, BestRollDenominator, BossMastery, BossTokens, ClaimedCodes, ClaimedGroupReward, ClaimedLikeMilestoneIds, CommentedTreadmillMedia, CreatorSandboxMoney, CreatorSandboxProgress, CreatorSandboxTokens, CurrentAreaEggClaims, DismissedGroupRewardPrompt, EarningsBoostExpiresAt, EggInventory, EquippedAssets, FreeGiftsActiveStartedAt, FreeGiftsClaimed, FreeGiftsLastResetDay, FreeGiftsStartedAt, FreeGiftsTime, FusionDuration, FusionEggReward, Fusion
+ReplicatedStorage.Shared.Modules.DefaultStats.Types.Interface -> 
+ReplicatedStorage.Shared.Modules.DefaultStats.Types.SchemaFields -> AutoSellRarities, BaseUpgradeLevel, BestGuardRunDistance, BestRollDenominator, BiggestAssetWeight, BossMastery, BossTokens, ClaimedCodes, ClaimedGroupReward, ClaimedLikeMilestoneIds, CommentedTreadmillMedia, CurrentAreaEggClaims, DismissedGroupRewardPrompt, EarningsBoostExpiresAt, EggInventory, EquippedAssets, EquippedTrail, FreeGiftsActiveStartedAt, FreeGiftsClaimed, FreeGiftsLastResetDay, FreeGiftsStartedAt, FreeGiftsTime, FusionDuration, FusionEggReward, FusionEndsAt, FusionInfoAcknowledged, 
+ReplicatedStorage.Shared.Modules.Environment -> GetEnvironmentName, GetPlaceIds, IsDefaultPlace, IsDevPlace, IsNewPlayerServer, IsQAPurchasesEnabled, IsTestPlace, PlaceIds
+ReplicatedStorage.Shared.Modules.Flags -> Add, Band, Clear, Copy, Get, Has, Remove, Set, __call, __index, __type, new
+ReplicatedStorage.Shared.Modules.ItemDisplay -> ApplyBillboardDisplay, ApplyModelScale, CreateActiveModel, CreateActiveModelWithHumanoid, CreateDataBillboard, CreateModel, CreateTool, CreateWanderingAssetModel, GetDataBillboardMaxDistance, GetDisplayScale, GetModelScale, GetMutationRichTextLine, GetNameFromItemData, GetVisibleBounds, IsDroppableBaseMutation, ResolveBaseMutation, SetDataBillboardMoneyPerSecond, StripRuntimeRig
+ReplicatedStorage.Shared.Modules.Mutex -> Destroy, __index, acquire, acquireNow, destroy, issueTicket, new, owner, release, run, spawn, wrun
+ReplicatedStorage.Shared.Modules.ExperienceEventPromptPolicy -> GetSoonestUnseenEvent, IsReturningPlayer, IsSafeToPrompt, IsValidEventId, MaxAttempts, PromptDelaySeconds, RetryDelaySeconds, TryMarkSeen
+ReplicatedStorage.Shared.Modules.Log -> createDefaultCallback, createLogger
+ReplicatedStorage.Shared.Modules.Mutations -> All, ApplyTo, ClearAllFrom, ClearFrom, EarningsFor, EggDisplayName, EggIcon, EggModelName, Get, IdSet, Ids, IsKnown, LabelOf, NO_MUTATION, RarityFactorFor, RollChanceOf, RollTable, Sanitize, TOTAL_ROLL_WEIGHT
+ReplicatedStorage.Shared.Modules.Mutations.Types -> MutationSpec
+ReplicatedStorage.Shared.Modules.Mutations.Visuals -> ApplyBlack, ApplyBloom, ApplyGolden, ApplyMetalCombo, ApplyRainbow, ApplySilver, ApplyTint, ClearBlack, ClearBloom, ClearGolden, ClearRainbow, ClearSilver, ClearTint, GetFXPart, SeedFor, ShouldApplyMetalCombo, WithVisualRandom
+ReplicatedStorage.Shared.Modules.Mutations.Catalog -> Boss, Golden, GreatBloom, Monstrous, Rainbow, Sakura, Scrambled, Silver
+ReplicatedStorage.Shared.Modules.Mutations.ScrambledVisuals -> Apply, Clear
+ReplicatedStorage.Shared.Modules.TreadmillMediaOverlay -> ApplySnapshot, ApplyTo, Changed, GetAdditionByKey, GetAdditions, GetCurrentReleaseVersion, GetEntryByKey, GetReplicationSnapshot, GetRevision, IsExcluded, SanitizeSnapshot
+ReplicatedStorage.Shared.Modules.AssetDisplayText -> Compose, FirstDroppable, ForRecord, IsDroppable, MutationRun, WithMass
+ReplicatedStorage.Shared.Modules.AssetRigFactory -> Build, BuildActive, BuildWandering, Extents, Mass, Resize, RigScale, Scale, Strip
+ReplicatedStorage.Shared.Modules.AssetInfoBillboard -> Attach, LiveMutations, Range, SetRate, WriteTitle
+ReplicatedStorage.Shared.Modules.AssetToolRig -> Build
+ReplicatedStorage.Shared.Modules.RagdollJoints -> Bind, Release
+ReplicatedStorage.Shared.Modules.TokenBucket -> Build, Forget, Spend
+ReplicatedStorage.Shared.Modules.EventBoardView -> Countdown, IsEligible, Pick, PromptDistance, RefreshSeconds, RetryBackoffSeconds, ShouldShow, TimerUpdateSeconds, ToUnix
+ReplicatedStorage.Shared.Modules.AfkTreadmillTest -> AttributeKey, GetGroupAsync, Groups, IsVariantAsync, TestName
+ReplicatedStorage.Shared.Modules.RiftZoneLadder -> Get, IndexOf, Invalidate, SpeedPowerFor
+ReplicatedStorage.Shared.Modules.RiftRecipes -> Describe, DescribeCandidates, DifficultyOf, GenerateRecipe, GetDifficulty, IsEligible, IsZonePet, ResolveConfig, RollAssetIds, Simulate, SpawnChanceOf, ZonePets
+ReplicatedStorage.Shared.Modules.ActionThrottle -> AtRate, Build, DefaultBlockSeconds, DefaultLogging, LogTemplates, Once, Rejection
+ReplicatedStorage.Shared.Modules.EntropyStream -> Between, BetweenSpan, Clone, Direction2, Direction3, NormalPair, PositiveYDirection3, Raw, Reseed, Roll, Vary, VerticalDirection3, Whole, WholeSpan, __class, __index, new
+ReplicatedStorage.Shared.Modules.Staff -> Changed, ChatLabelOf, ChatTag, ColorOf, GradientOf, LabelOf, LightColorOf, OverheadLabel, RoleOf
+ReplicatedStorage.Shared.Modules.BatController.Client -> Destroy, __class, __index, _cancelTween, _destroyHighlight, _getHighlightAttackerPositionAt, _hideHighlight, _init, _isTargetEligible, _logActivationTrace, _logLocalRejection, _onActivated, _onEquipped, _predictServerAcceptsHighlightTarget, _recordHighlightAttackerSample, _selectClosestTarget, _showHighlight, _trackPlayer, _untrackPlayer, _updateHighlights, new
+ReplicatedStorage.Shared.Modules.BatController.Config -> DragonEggEventActiveAttribute, DragonEggEventHitboxScalar, GetHitboxScalar, HitTolerance, MaximumTargetViewAge, Range, TargetViewSamplePadding
+ReplicatedStorage.Shared.Modules.BatController.Types.Interface -> 
+ReplicatedStorage.Shared.Modules.GuardAreas.GuardMovementRecovery -> Reset, ShouldRecoverFromFall, Step, __class, __index, _getHorizontalDistance, new
+ReplicatedStorage.Shared.Modules.GuardAreas.GuardDistance -> XZ
+ReplicatedStorage.Shared.Modules.GuardAreas.GuardChasePolicy -> GetWakingDuration, ResolveCatchDuration, ResolveHitDistance, ResolveWalkSpeed
+ReplicatedStorage.Shared.Modules.GuardAreas.GuardEscapePrediction -> Resolve, ResolveExitDistance, ResolveGreenPlayerWalkSpeedRequirement, ResolvePlayerWalkSpeedRequirement, ResolveSlowdownTolerance
+ReplicatedStorage.Shared.Modules.GuardAreas.GuardComponent -> ATTACK_MIN_INTERVAL, ClearDroppedEgg, ClearPlayer, ClearStolenEgg, Destroy, HasStolenEggs, IsDroppedEggAttached, IsEnabled, RegisterDroppedEgg, RegisterStolenEgg, SetEnabled, Step, __class, __index, _attemptAttack, _beginSleepTurn, _cancelSleepTurn, _chooseTargetPlayer, _ensureWalkAnimation, _enterChaseState, _enterEggRetrievalState, _enterReturnHomeState, _enterSleepState, _enterWakingState, _getChaseWalkSpeed, _getReturnWalkSpeed, _holdIfHitPaused, _isHitPaused, _moveThrough, _moveTo, _recover
+ReplicatedStorage.Shared.Modules.GuardAreas.GuardEggRetrievalComponent -> Clear, Destroy, GetCurrentEggUid, GetMoveTarget, HasPending, IsAttached, Register, TryTransition, __class, __index, _destroyWeld, _enqueue, _removeCurrent, _selectCurrent, new
+ReplicatedStorage.Shared.Modules.GuardAreas.GuardPresentationComponent -> CancelAfterWake, CreateSoundFile, Destroy, EnsureFootstepSound, EnsureIdleAnimation, EnsureWalkAnimation, LoadTrack, NormalizeAfterWakeSoundConfigs, PlayAfterWake, PlayHit, PlaySleep, PlayWake, ScheduleAfterWake, StopFootstepSound, StopIdleAnimation, StopSleep, StopWalkAnimation, UpdateAfterWake, __class, __index, new
+ReplicatedStorage.Shared.Modules.GuardAreas.GuardReturnHomeDistanceResolver -> Resolve
+ReplicatedStorage.Shared.Modules.GuardAreas.GuardEscapeRequirement -> BuildPathParameters, PublishSign, ResolveSpeedPower, SIGN_SPEEDS_ATTRIBUTE
+ReplicatedStorage.Shared.Modules.GuardAreas.Types.Interface -> 
+ReplicatedStorage.Shared.Types.ServerLuck -> State
+ReplicatedStorage.Shared.Types.CharacterIntegrity -> 
+ReplicatedStorage.Shared.Types.Monetization -> 
+ReplicatedStorage.Shared.Types.Plots -> SchemaValidation
+ReplicatedStorage.Shared.Types.AreaEggResetCycle -> SchemaValidation
+ReplicatedStorage.Shared.Types.AssetItem -> AssetItemData, AssetItemDataArray, SerializedAssetItemData
+ReplicatedStorage.Shared.Types.Rarity -> Rarity
+ReplicatedStorage.Shared.Types.AreaEggs -> DropReasons, SchemaValidation, States
+ReplicatedStorage.Shared.Types.AssetRuntime -> SchemaValidation
+ReplicatedStorage.Shared.Types.GuardAreas -> SchemaValidation
+ReplicatedStorage.Shared.Types.Eggs -> HATCH_RESULT_MECHA_UPGRADED, MAX_INVENTORY, SchemaValidation
+ReplicatedStorage.Shared.Types.Tools -> SlapControllerData, SlapControllerProfile
+ReplicatedStorage.Shared.Types.GuardTutorial -> AcceptsGuidanceState, AcceptsStepId, CopyProgress, DEFAULT_PROGRESS, RunGuidanceStates, SanitizeProgress, SchemaValidation, StepIds
+ReplicatedStorage.Shared.Types.CollisionGroups -> CARRIED_EGG_COLLISION_GROUP, FOLLOW_ASSET_COLLISION_GROUP, FUSE_SHRINE_GATE_COLLISION_GROUP, GUARDS_NO_COLLIDE_COLLISION_GROUP, GUARD_COLLISION_GROUP, LUCKY_BLOCK_COLLISION_GROUP, PLAYER_COLLISION_GROUP
+ReplicatedStorage.Shared.Types.Currency -> AllCurrencyTypes, AllCurrencyTypesArray, SchemaValidation
+ReplicatedStorage.Shared.Types.ActiveAssets -> LuckyBlockOpenAnimationPayload, LuckyBlockRewardDescriptor, SpecialLuckyBlockCaptureAnimationPayload, SpecialLuckyBlockReadySignalPayload
+ReplicatedStorage.Shared.Types.FuseMachine -> FuseResult, PendingEggReward
+ReplicatedStorage.Shared.Types.TreadmillMediaLike -> 
+ReplicatedStorage.Shared.Types.TreadmillMediaLike.Types.Interface -> 
+ReplicatedStorage.Shared.Types.TreadmillMediaLike.Types.Schema -> AggregateShardPayload, CountsByMediaLikeKey, FriendLikeSnapshot, FriendLikeSnapshotRequest, LikeSnapshot, LikeToggleRequest, LikeToggleResult, LikedTreadmillMedia, LikerUserIds, LikerUserIdsByMediaLikeKey, MediaKey, MemberBucketsByMediaLikeKey, MemberCountsByMediaLikeKey, MemberShardPayload, MemberUserIdSet, MembersByMediaLikeKey, OldestMemberBucketByMediaLikeKey
+ReplicatedStorage.Shared.Types.TreadmillMediaComments -> Schema
+ReplicatedStorage.Shared.Types.TreadmillMediaComments.Schema -> ClientCommentRecord, CommentCountEnvelope, CommentCountPayload, CommentCountsRequest, CommentCountsResult, CommentId, CommentPageRequest, CommentPageResult, MediaKey, PersistedCommentPayload, PersistedCommentRecord, PostCommentRequest, PostCommentResult, SetCommentLikeRequest, SetCommentLikeResult
+ReplicatedStorage.Shared.Types.Index -> 
+ReplicatedStorage.Shared.Types.Sakura -> Blank, IncubatorEgg, MutateResult, State
+ReplicatedStorage.Shared.Types.GroupReward -> Label, SpeedPowerAward
+ReplicatedStorage.Shared.Types.MonsterParasite -> BoostExpiresAt, BoostKinds, BoostRemainingSeconds, BoostRewardIds, ChargeDrainAttributeName, ChargeDrainDuration, ChargeGainAttributeName, ChargeGainCueTimeout, ChestResultSchema, DefaultState, EventStateSchema, FeedResultSchema, IsBoostActive, PendingRewardSchema, RefreshBoost, RetiredRewardIds, RevealResultSchema, RewardIds, SnapshotSchema, StateSchema, TakeResultSchema, ViewRewardsPromptName, ViewRewardsPromptText
+ReplicatedStorage.Shared.Types.BossMastery -> Blank, Reconcile, State
+ReplicatedStorage.Shared.Types.Rift -> Blank, PendingReward, State
+ReplicatedStorage.Shared.Types.AfkProtection -> ANALYTICS_IDLE_THRESHOLD_SECONDS, CLIENT_FALLBACK_IDLE_THRESHOLD_SECONDS, IDLE_POLL_INTERVAL_SECONDS, RESTORE_READY_TIMEOUT_SECONDS, RESTORE_SETTLE_SECONDS, RESTORE_SPAWN_CONFIRM_DISTANCE, SERVER_MIN_OBSERVED_IDLE_SECONDS, SERVER_TELEPORT_SPACING_SECONDS, TELEPORT_ATTEMPTS, TELEPORT_DATA_KEY, TELEPORT_IDLE_THRESHOLD_SECONDS, TELEPORT_REQUEST_RETRY_INTERVAL_SECONDS, TELEPORT_RETRY_DELAY_SECONDS
+ReplicatedStorage.Shared.Types.OnboardingQuestline -> Blank, Reconcile, State
+ReplicatedStorage.Shared.Types.Leaderboards -> SchemaValidation
+ReplicatedStorage.Shared.Types.ShrineFusion -> Blank, State
+ReplicatedStorage.Shared.Types.Scramble -> Blank, State
+ReplicatedStorage.Shared.Util.SpecialLuckyBlockAsset -> BuildLayout, Capacity, CountHeld, Matches, MatchesCategory, NextOpenColumn, ProgressGoalFor, ProgressGoalForCategory
+ReplicatedStorage.Shared.Util.MonetizationEntitlements -> AssetMoneyAdditiveBonus, AvatarAssetPrice, AvatarBundlePrice, EffectiveRobuxSpend, FuseRarestWeightMultiplier, GamepassPrice, GameplayBlockLuckPercent, HasLucky, HasVipProduct, HasX2Growth, HasX2Money, IsPlayerSpender, IsSpender, MarketplacePrice, NormalizeRobuxSpend, OwnedGamepassesForPlayer, OwnedProductsForPlayer, PROFILES, PlayerAssetMoneyAdditiveBonus, PlayerAvatarValue, PlayerFuseRarestWeightMultiplier, PlayerGameplayBlockLuckPercent, PlayerHasAvatarValue, PlayerHasLucky, PlayerHasVipProdu
+ReplicatedStorage.Shared.Util.AssetGender -> BadgeImage, Draw, IsTag, Settle
+ReplicatedStorage.Shared.Util.AreaEggSlotIdentity -> FirstAreaOwnerUserId, LooksLikeFirstAreaUid, NestFor, NestIdFor, SlotKey, SortedNests
+ReplicatedStorage.Shared.Util.FuseKernel -> BandWeightBias, DrawFusedScale, MayEnterFuse, MayEnterRift, PriceFor
+ReplicatedStorage.Shared.Util.EggRecords -> CommittedNightCredit, CurrentNightCredit, Decode, DecodePlacement, DisplayName, DisplayNameWithWeight, DrawAssetScale, EggIcon, EggModelName, EggModelTemplate, Encode, EncodePlacement, GrowthAlpha, GrowthCredit, GrowthDuration, GrowthSecondsRemaining, GrowthSpeedMultiplier, IsGrown, NewEgg, NightCreditAt, Normalize, ScaleHardCap, SellPrice, ServerGrowthBoostEndsAt, ServerGrowthBoostMultiplier, ToAssetItemData, WallSecondsRemaining, WeightKg, WeightKgForScale, WeightLabel
+ReplicatedStorage.Shared.Util.EggScaling -> ClampSaved, FitIconToEgg, FitInside, FloorForCategory, IconScaleFor, LiftToFloor, MAX_EGG_SCALE, MAX_ICON_SCALE, MIN_EGG_SCALE, MIN_ICON_SCALE, PlacedStart, PlacedTarget, PreGrowthVisual, RawVisual
+ReplicatedStorage.Shared.Util.AssetItems -> Decode, Encode, IndexMoneyReward, IndexSpeedReward, ProfileIncomePerSecond, RarityRankForCategory, SalePrice, WeightKg, WeightLabel
+ReplicatedStorage.Shared.Util.AssetPalette -> DrawColorIndex, DrawColorSeed, DrawEyeColorHex, DrawFields, ModelColorAt, PaintModel, SettleFields
+ReplicatedStorage.Shared.Util.AreaEggCycle -> ActivePeriodIndexAt, BeginNight, EndingSoonSeconds, FinalBlinkSeconds, FinishNight, HasScheduleOverride, IsBlinkOnRedFrame, IsCloseToReset, IsInFinalBlink, IsNearResetBoundary, IsNightPhase, IsRunning, IsWithinNightTransition, MinNightDurationSeconds, NextNightTime, NextResetTime, NightGrowthCreditAt, NightGrowthRate, NightGrowthSkipSeconds, NightLengthSeconds, NightStartTime, NightTransitionStartTime, OverrideNightLength, PeriodIndexAt, PeriodStartTime, PostponeReset, ResetPeriodSeconds, ResetS
+ReplicatedStorage.Shared.Util.EventEggCategories -> IsEventEgg
+ReplicatedStorage.Shared.Util.AssetSounds -> AttachEffects, BuildSound, ParseMutationList, PlayJump, ReadMutationState, StartFootsteps, StopFootsteps, WeightedParams
+ReplicatedStorage.Shared.Util.AssetLottery -> DrawCategory, DrawCategoryForRarity, DrawCategoryFromRarityTable, DrawCategoryFromTable, DrawMutations, DrawScale, RollCountFor, TokenChances
+ReplicatedStorage.Shared.Util.AssetRollScaleWeights -> 1, 2, 3, 4, 5
+ReplicatedStorage.Shared.Util.GuardAreaGeometry -> CrossedLineInward, CrossedLineOutward, IsPastLine, IsWithinFootprint, ReadAreaBounds, SignedDistanceToLine
+ReplicatedStorage.Shared.Util.AssetEarnings -> CatalogRatePerSecond, LiveRatePerSecond, MutationOnlyRatePerSecond, RatePerSecond
+ReplicatedStorage.Shared.Util.WalkSpeedGovernor -> Attach, BaseSpeed, Bind, CurrentSpeed, Destroy, Detach, DetachSource, HasModifier, Modifiers, Rebase, __index, new
+ReplicatedStorage.Shared.Util.ToolCooldown -> Begin, Cancel, IsRunning, PrimeTool, SecondsRemaining
+ReplicatedStorage.Shared.Util.TreadmillUtil -> DEFAULT_BASE_SPEED_POWER, DEFAULT_BASE_SPEED_POWER_PER_STEP, DEFAULT_SPEED_STEP_MULTIPLIER, FindVideoFeedScreenPart, FindVideoPlayerFolder, FindVideoPresentationParts, FormatSpeedMultiplier, FormatSpeedMultiplierValue, FormatSpeedPower, FormatSpeedPowerPerStep, FormatTemporarySpeedBoostProductDuration, FormatTreadmillSpeedEquivalentDuration, GetSpeedBoostMultiplierForTierIndex, GetTemporarySpeedBoostMultiplier, MAX_SPEED_BOOST_TIER_INDEX, MAX_WALK_SPEED, NormalizeSpeedPower, ResolveAdditiveSpeed
+ReplicatedStorage.Shared.Util.AdminBoosts -> Assign, EARNINGS, EGG_SIZE, EGG_SPAWN_LUCK, MUTATION_LUCK, Observe, ReadMultiplier, SPEED, TREADMILL
+ReplicatedStorage.Shared.Util.MonsterParasiteEligibility -> IsEligible
+ReplicatedStorage.Shared.Util.PlayerEarningsBoost -> DURATION_SECONDS, EXPIRES_AT_ATTRIBUTE, GetChangedSignal, GetConfiguredMultiplier, GetMultiplier, GetRemainingSeconds, GetRemainingSecondsFromExpiry
+ReplicatedStorage.Shared.Util.SafeZoneBarriers -> Depth, Intrusion, IsFencedUid, Separates
+ReplicatedStorage.Shared.Util.RiftEligibility -> CutsceneSeenAttribute, HasSeenReveal, IsEligible, IsFeatureLive, IsRevealed, OpenAttribute
+ReplicatedStorage.Shared.Util.MonsterParasiteWindow -> Changed, IsActive, Refresh
+ReplicatedStorage.Shared.Util.ShrineFusionRules -> BuildPatches, CheckInput, EggCount, ResolveRecipes, Same, Tiers
+ReplicatedStorage.Shared.Util.SubBiomeCycle -> Active, ActiveAt, ById, ForPeriod, IsOverridden, IsRotating, LocalRevealAttributeName, OverrideAttributeName, PoolDropTable, RevealPhaseAt, RolledForPeriod, SetLocalReveal, SetOverride, Variants
+ReplicatedStorage.Shared.Util.ShrinePadZone -> ContainsCharacter, ContainsPoint
+ReplicatedStorage.Shared.Util.ScrambleRules -> Apply, Blank, Count, Integer, MAX_SAMPLES, NextPart, PART_IDS, Progress, Project, SplitSamples, Window
+ReplicatedStorage.Shared.Util.ScrambleMotion -> Envelope, Hitbox, Pose, Read
+ReplicatedStorage.Shared.Util.ScramblePickupMotion -> BounceSeconds, FallSeconds, GroundPosition, MagnetDelay, MagnetPosition, MagnetSeconds
+ReplicatedStorage.Shared.Util.ScrambleDroneMotion -> DeathFadeSeconds, Decode, Encode, Pose, Read
+ReplicatedStorage.Packages.Networking -> close, namespace, remoteEvent, remoteFunction, unreliableRemoteEvent
+ReplicatedStorage.Packages.CameraShaker -> CameraShakeInstance, NextRenderName, Presets, Shake, ShakeFromPresetName, ShakeOnce, ShakeSustain, Start, StartShake, Stop, StopByRenderName, StopSustained, Update, __index, new
+ReplicatedStorage.Packages.Streamable -> Streamable, StreamableUtil
+ReplicatedStorage.Packages.Input -> Gamepad, Keyboard, Mouse, PreferredInput, Touch
+ReplicatedStorage.Packages.InstanceCache -> GetRandomHiddenCFrame, SetInvisibleBounds, is, new
+ReplicatedStorage.Packages.TableUtil -> Assign, Copy, CopySafe, DecodeJSON, EncodeJSON, Every, Extend, Filter, Find, Flat, FlatMap, HardReconcile, HardShallowReconcile, IsEmpty, Keys, Lock, Map, Reconcile, Reduce, Reverse, Sample, ShallowReconcile, Shuffle, Some, SwapRemove, SwapRemoveFirstValue, Sync, Truncate, Values, Zip
+ReplicatedStorage.Packages.Log -> Assert, At, AtDebug, AtError, AtFatal, AtInfo, AtTrace, AtWarning, Destroy, Level, LevelNames, LimitUnderLevel, Mute, TimeUnit, UnMute, __index, __tostring, _at, _getLogStats, getLevelFromName, isWithinLevel, new
+ReplicatedStorage.Packages.t -> Axes, BrickColor, CFrame, CatalogSearchParams, Color3, ColorSequence, ColorSequenceKeypoint, DateTime, DockWidgetPluginGuiInfo, Enum, EnumItem, Enums, Faces, FloatCurveKey, Font, Instance, NumberRange, NumberSequence, NumberSequenceKeypoint, OverlapParams, PathWaypoint, PhysicalProperties, RBXScriptConnection, RBXScriptSignal, Random, Ray, RaycastParams, RaycastResult, Rect, Region3, Region3int16, TweenInfo, UDim, UDim2, Vector2, Vector2int16, Vector3, Vector3int16, any, array, boolean, buffer, 
+ReplicatedStorage.Packages.Signal -> Is, Wrap, new
+ReplicatedStorage.Packages.Timer -> Destroy, Is, IsRunning, Simple, Start, StartNow, Stop, __index, _startTimer, _startTimerNoDrift, new
+ReplicatedStorage.Packages.WaitFor -> Child, ChildWhichIsA, Children, Custom, Descendant, Descendants, Error, ObjectValue, PrimaryPart
+ReplicatedStorage.Packages.TestEz -> Expectation, Reporters, TestBootstrap, TestEnum, TestPlan, TestPlanner, TestResults, TestRunner, TestSession, run
+ReplicatedStorage.Packages.Promise -> Error, Status, __index, __tostring, _all, _getTime, _new, _timeEvent, _try, _unhandledRejectionCallbacks, all, allSettled, any, async, defer, delay, each, fold, fromEvent, is, new, onUnhandledRejection, promisify, prototype, race, reject, resolve, retry, retryWithDelay, some, try
+ReplicatedStorage.Packages.Trove -> is, new
+ReplicatedStorage.Packages.TopBarPlus -> Destroy, __index, _setToggleItemsVisible, _updateSelectionInstances, addToJanitor, align, autoDeselect, baseDisplayOrder, baseDisplayOrderChanged, baseTheme, bindEvent, bindToggleItem, bindToggleKey, call, captionLastClosedClock, clearNotices, clipOutside, container, convertLabelToNumberSpinner, debounce, deselect, destroy, disableOverlay, disableStateOverlay, freezeMenu, getCollective, getDropdown, getIcon, getIconByUID, getIcons, getInstance, getInstanceOrCollective, getStateGroup, highlightIc
+ReplicatedStorage.Packages.Shake -> InverseSquare, NextRenderName, new
+ReplicatedStorage.Packages.Spring -> Impulse, TimeSkip, __index, __newindex, _positionVelocity, getPosition, new
+ReplicatedStorage.Packages.Configs.Log -> Other, Studio
+ReplicatedStorage.Packages.FormatNumber.Main -> DecimalFormatSymbols, DecimalSeparatorDisplay, ENumberFormatSymbols, GroupingStrategy, IntegerWidth, Notation, NumberFormatter, Precision, RoundingMode, RoundingPriority, SignDisplay
+ReplicatedStorage.Packages.FormatNumber.Main.DecimalFormatSymbols -> createWithLastResortData
+ReplicatedStorage.Packages.FormatNumber.Main.IntegerWidth -> zeroFillTo
+ReplicatedStorage.Packages.FormatNumber.Main.Notation -> compactWithSuffixThousands, engineering, scientific, simple
+ReplicatedStorage.Packages.FormatNumber.Main.Precision -> fixedFraction, fixedSignificantDigits, integer, maxFraction, maxSignificantDigits, minFraction, minMaxFraction, minMaxSignificantDigits, minSignificantDigits, unlimited
+ReplicatedStorage.Packages.FormatNumber.Simple -> Format, FormatCompact
+ReplicatedStorage.Packages.FormatNumber.Version -> current, new
+ReplicatedStorage.Packages.FormatNumber._internal -> class, decimal_conversion, enums, format, formatter_settings, skeleton
+ReplicatedStorage.Packages.FormatNumber._internal.class -> ImmutabilityType, create_init_function, double_to_int32, get_data, get_resolved_data, is_a, try_coerce, try_coerce_enum, try_coerce_range
+ReplicatedStorage.Packages.FormatNumber._internal.decimal_conversion -> from_double
+ReplicatedStorage.Packages.FormatNumber._internal.enums -> DecimalSeparatorDisplay, ENumberFormatSymbols, GroupingStrategy, RoundingMode, RoundingPriority, SignDisplay, _Internal
+ReplicatedStorage.Packages.FormatNumber._internal.format -> display_sign, format_expt, format_unsigned_finite, resolve_int_frac, resolve_with_notation, round_sig, strip_trailing_zero
+ReplicatedStorage.Packages.FormatNumber._internal.formatter_settings -> MAX_PRECISION, generate_from_sign_enum, linked_list_to_dict, resolve_min_max_sig, resolve_settings
+ReplicatedStorage.Packages.FormatNumber._internal.skeleton -> settings_to_skeleton, to_option_linked_list
+ReplicatedStorage.Packages._Index.sleitnick_wait-for@1.0.0.wait-for -> Child, ChildWhichIsA, Children, Custom, Descendant, Descendants, Error, ObjectValue, PrimaryPart
+ReplicatedStorage.Packages._Index.evaera_promise@4.0.0.promise -> Error, Status, __index, __tostring, _all, _getTime, _new, _timeEvent, _try, _unhandledRejectionCallbacks, all, allSettled, any, async, defer, delay, each, fold, fromEvent, is, new, onUnhandledRejection, promisify, prototype, race, reject, resolve, retry, retryWithDelay, some, try
+ReplicatedStorage.Packages._Index.sleitnick_ez_shake@unknown.CameraShaker -> CameraShakeInstance, NextRenderName, Presets, Shake, ShakeFromPresetName, ShakeOnce, ShakeSustain, Start, StartShake, Stop, StopByRenderName, StopSustained, Update, __index, new
+ReplicatedStorage.Packages._Index.sleitnick_ez_shake@unknown.CameraShaker.CameraShakeInstance -> CameraShakeState, GetNormalizedFadeTime, GetScaleMagnitude, GetScaleRoughness, GetState, IsFadingIn, IsFadingOut, IsShaking, SetScaleMagnitude, SetScaleRoughness, StartFadeIn, StartFadeOut, UpdateShake, __index, new
+ReplicatedStorage.Packages._Index.sleitnick_ez_shake@unknown.CameraShaker.CameraShakePresets -> _allPresetsLiteral
+ReplicatedStorage.Packages._Index.pyseph_objectcache@1.4.6.objectcache -> GetRandomHiddenCFrame, SetInvisibleBounds, is, new
+ReplicatedStorage.Packages._Index.sleitnick_signal@1.5.0.signal -> Is, Wrap, new
+ReplicatedStorage.Packages._Index.osyrisrblx_t@3.1.1.t -> Axes, BrickColor, CFrame, CatalogSearchParams, Color3, ColorSequence, ColorSequenceKeypoint, DateTime, DockWidgetPluginGuiInfo, Enum, EnumItem, Enums, Faces, FloatCurveKey, Font, Instance, NumberRange, NumberSequence, NumberSequenceKeypoint, OverlapParams, PathWaypoint, PhysicalProperties, RBXScriptConnection, RBXScriptSignal, Random, Ray, RaycastParams, RaycastResult, Rect, Region3, Region3int16, TweenInfo, UDim, UDim2, Vector2, Vector2int16, Vector3, Vector3int16, any, array, boolean, buffer, 
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez -> Expectation, Reporters, TestBootstrap, TestEnum, TestPlan, TestPlanner, TestResults, TestRunner, TestSession, run
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.Context -> new
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.Expectation -> __index, _resetModifiers, a, an, checkMatcherNameCollisions, equal, extend, near, new, ok, throw
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.ExpectationContext -> __index, extend, new, startExpectationChain
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.LifecycleHooks -> __index, _getHooksOfType, getAfterAllHooks, getAfterEachHooks, getBeforeAllHooks, getBeforeEachHooks, new, popHooks, pushHooksFrom
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.TestBootstrap -> getModules, getModulesImpl, run
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.TestEnum -> NodeModifier, NodeType, TestStatus
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.TestPlan -> __index, addChild, addRoot, findNodes, new, visitAllNodes, visualize
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.TestPlanner -> createPlan
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.TestResults -> __index, createNode, new, visitAllNodes, visualize
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.TestRunner -> environment, runPlan, runPlanNode
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.TestSession -> __index, addDummyError, calculateTotals, finalize, gatherErrors, getContext, getExpectationContext, new, popNode, pushNode, setError, setSkipped, setStatusFromChildren, setSuccess, shouldSkip
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.Reporters.TeamCityReporter -> report
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.Reporters.TextReporter -> report
+ReplicatedStorage.Packages._Index.roblox_testez@0.4.1.testez.Reporters.TextReporterQuiet -> report
+ReplicatedStorage.Packages._Index.sleitnick_trove@1.5.0.trove -> is, new
+ReplicatedStorage.Packages._Index.sleitnick_trove@0.4.2.trove -> Add, AddPromise, AttachToInstance, BindToRenderStep, Clean, Clone, Connect, Construct, Destroy, Extend, Remove, __index, _cleanupObject, _findAndRemoveFromObjects, new
+ReplicatedStorage.Packages._Index.sleitnick_input@2.3.0.Signal -> Is, Wrap, new
+ReplicatedStorage.Packages._Index.sleitnick_input@2.3.0.Trove -> is, new
+ReplicatedStorage.Packages._Index.sleitnick_input@2.3.0.input -> Gamepad, Keyboard, Mouse, PreferredInput, Touch
+ReplicatedStorage.Packages._Index.sleitnick_input@2.3.0.input.Gamepad -> Destroy, GetThumbstick, GetTrigger, GetUserInputType, IsAutoSelectGuiEnabled, IsButtonDown, IsConnected, IsMotorSupported, PulseMotor, SetAutoSelectGui, SetMotor, StopMotor, StopMotors, __index, _setupActiveGamepad, _setupGamepad, _setupMotors, new
+ReplicatedStorage.Packages._Index.sleitnick_input@2.3.0.input.Keyboard -> AreEitherKeysDown, AreKeysDown, Destroy, IsKeyDown, __index, _setup, new
+ReplicatedStorage.Packages._Index.sleitnick_input@2.3.0.input.Mouse -> Destroy, GetDelta, GetPosition, GetRay, IsLeftDown, IsMiddleDown, IsRightDown, Lock, LockCenter, Project, Raycast, Unlock, __index, new
+ReplicatedStorage.Packages._Index.sleitnick_input@2.3.0.input.PreferredInput -> Current, Observe
+ReplicatedStorage.Packages._Index.sleitnick_input@2.3.0.input.Touch -> Destroy, IsTouchEnabled, __index, new
+ReplicatedStorage.Packages._Index.sleitnick_timer@1.1.2.Signal -> Is, Wrap, new
+ReplicatedStorage.Packages._Index.sleitnick_timer@1.1.2.timer -> Destroy, Is, IsRunning, Simple, Start, StartNow, Stop, __index, _startTimer, _startTimerNoDrift, new
+ReplicatedStorage.Packages._Index.sleitnick_log@0.1.1.log -> Assert, At, AtDebug, AtError, AtFatal, AtInfo, AtTrace, AtWarning, Destroy, Level, LevelNames, LimitUnderLevel, Mute, TimeUnit, UnMute, __index, __tostring, _at, _getLogStats, getLevelFromName, isWithinLevel, new
+ReplicatedStorage.Packages._Index.sleitnick_signal@2.0.3.signal -> Is, Wrap, new
+ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1.table-util -> Assign, Copy, CopySafe, DecodeJSON, EncodeJSON, Every, Extend, Filter, Find, Flat, FlatMap, HardReconcile, HardShallowReconcile, IsEmpty, Keys, Lock, Map, Reconcile, Reduce, Reverse, Sample, ShallowReconcile, Shuffle, Some, SwapRemove, SwapRemoveFirstValue, Sync, Truncate, Values, Zip
+ReplicatedStorage.Packages._Index.sleitnick_shake@1.1.0.shake -> InverseSquare, NextRenderName, new
+ReplicatedStorage.Packages._Index.sleitnick_streamable@1.2.4.Signal -> Is, Wrap, new
+ReplicatedStorage.Packages._Index.sleitnick_streamable@1.2.4.Trove -> Add, AddPromise, AttachToInstance, BindToRenderStep, Clean, Clone, Connect, Construct, Destroy, Extend, Remove, __index, _cleanupObject, _findAndRemoveFromObjects, new
+ReplicatedStorage.Packages._Index.sleitnick_streamable@1.2.4.streamable -> Streamable, StreamableUtil
+ReplicatedStorage.Packages._Index.sleitnick_streamable@1.2.4.streamable.Streamable -> Destroy, Observe, __index, new, primary
+ReplicatedStorage.Packages._Index.sleitnick_streamable@1.2.4.streamable.StreamableUtil -> Compound
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus -> Destroy, __index, _setToggleItemsVisible, _updateSelectionInstances, addToJanitor, align, autoDeselect, baseDisplayOrder, baseDisplayOrderChanged, baseTheme, bindEvent, bindToggleItem, bindToggleKey, call, clearNotices, clipOutside, container, convertLabelToNumberSpinner, debounce, deselect, destroy, disableOverlay, disableStateOverlay, freezeMenu, getCollective, getDropdown, getIcon, getIconByUID, getIcons, getInstance, getInstanceOrCollective, getStateGroup, iconAdded, iconChanged, iconRemoved
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.Attribute -> 
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.Reference -> addToReplicatedStorage, getObject, objectName
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.Types -> 
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.Utility -> clipOutside, copyTable, createStagger, formatStateName, generateUID, getClippedContainer, joinFeature, localPlayerRespawned, reverseTable, round, setVisible
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.VERSION -> appVersion, getAppVersion, getLatestVersion, isUpToDate
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.Features.Gamepad -> getIconToHighlight, registerButton, start
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.Features.Overflow -> getAvailableIcons, getRealXPositions, getWidth, start, updateAvailableIcons, updateBoundary
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.Features.Themes -> apply, change, getClippedClone, getInstanceValue, getModifications, getRealInstance, getThemeValue, merge, modify, rebuild, refresh, remove, removeWith, set, statesMatch
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.Features.Themes.Classic -> 1, 10, 11, 12, 13, 14, 15, 16, 2, 3, 4, 5, 6, 7, 8, 9
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.Features.Themes.Default -> 1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 3, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 4, 40, 41, 42, 5, 6, 7, 8, 9
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.Packages.GoodSignal -> Connect, Destroy, DisconnectAll, Fire, Once, Wait, __index, new
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.2.5.topbarplus.Packages.Janitor -> ClassName, IGNORE_MEMORY_DEBUG, Is, __call, __index, is, new
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus -> Destroy, __index, _setToggleItemsVisible, _updateSelectionInstances, addToJanitor, align, autoDeselect, baseDisplayOrder, baseDisplayOrderChanged, baseTheme, bindEvent, bindToggleItem, bindToggleKey, call, captionLastClosedClock, clearNotices, clipOutside, container, convertLabelToNumberSpinner, debounce, deselect, destroy, disableOverlay, disableStateOverlay, freezeMenu, getCollective, getDropdown, getIcon, getIconByUID, getIcons, getInstance, getInstanceOrCollective, getStateGroup, highlightIc
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.Types -> 
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.VERSION -> appVersion, getAppVersion, getLatestVersion, isUpToDate, latestVersion
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.Reference -> addToReplicatedStorage, getObject, objectName
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.Attribute -> 
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.Utility -> clipOutside, copyTable, createStagger, formatStateName, generateUID, getClippedContainer, joinFeature, localPlayerRespawned, reverseTable, round, setVisible
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.Features.Gamepad -> getIconToHighlight, registerButton, start
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.Features.Overflow -> getAvailableIcons, getRealXPositions, getWidth, start, updateAvailableIcons, updateBoundary
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.Features.Themes -> apply, change, getClippedClone, getInstanceValue, getModifications, getRealInstance, getThemeValue, merge, modify, rebuild, refresh, remove, removeWith, set, statesMatch
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.Features.Themes.Classic -> 1, 10, 11, 12, 13, 14, 15, 16, 2, 3, 4, 5, 6, 7, 8, 9
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.Features.Themes.Default -> 1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 3, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 4, 40, 41, 42, 5, 6, 7, 8, 9
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.Packages.GoodSignal -> Connect, Destroy, DisconnectAll, Fire, Once, Wait, __index, new
+ReplicatedStorage.Packages._Index.1foreverhd_topbarplus@3.4.0.topbarplus.Packages.Janitor -> ClassName, IGNORE_MEMORY_DEBUG, Is, __call, __index, is, new
+ReplicatedStorage.Client.PlatformSignals -> Changed
+ReplicatedStorage.Client.HiddenUIHandler -> Acquire, Changed, IsHidden
+ReplicatedStorage.Client.LightingsController -> ClearModifier, DefaultLightings, SetLighting, SetModifier, appliedLook, baseLook, baseRank, modifiers, tweenHandle
+ReplicatedStorage.Client.AutoGridLayout -> Bind
+ReplicatedStorage.Client.FuseMachineSignals -> FuseStarted
+ReplicatedStorage.Client.ClientGlobals -> Console, Desktop, Mobile, Platform
+ReplicatedStorage.Client.SmartProximityPrompt -> AttachToModel
+ReplicatedStorage.Client.SmartProximityPrompt.SurfaceTracker -> Destroy, GetClosestSurfacePoint, Rescan, __class, __index, new
+ReplicatedStorage.Client.SmartProximityPrompt.FollowerLoop -> Add, Drop, MakeAnchor
+ReplicatedStorage.Client.ToolGameplayGuard -> AllowsLocalUse, IsInsideArena, IsInsideSafeZone, IsLocalInsideArena
+ReplicatedStorage.Client.ChatMsg -> Announce
+ReplicatedStorage.Client.SakuraSignals -> Reveal, ShowTutorial
+ReplicatedStorage.Client.VideoCommentsCmds -> CommentCountChanged, GetCachedCommentCount, PostComment, ReconcileCommentCount, RequestCommentCounts, RequestCommentPage, SetCommentLike, StartCommentCountCache
+ReplicatedStorage.Client.BaseUpgradeTransitionLifecycle -> Begin, Complete, Completed, IsPlaying
+ReplicatedStorage.Client.InfoOverlay -> Dismiss, Hook, Show
+ReplicatedStorage.Client.AreaEggResetWall -> ArmReveal, Changed, ClearWall, CollapseSeconds, DropWall, IsSealed, RaiseWall, ResolveFullHeight, ResolveWallPart
+ReplicatedStorage.Client.AssetViewport -> AimLocalOrbit, AimOrbit, LoopIdle, Mount, Orbit, ShowAsset, ShowItem, ShowModel
+ReplicatedStorage.Client.SpeedPowerProjection -> Changed, CloseSession, CreditRevealedGain, OpenSession, ReadProjected
+ReplicatedStorage.Client.Products -> HasProduct, ReadOwned
+ReplicatedStorage.Client.Notifications -> Item, Message, RiftSpawn, _raiseConnection
+ReplicatedStorage.Client.Notifications.Item -> Bottom, Top
+ReplicatedStorage.Client.Notifications.NotificationInstance -> Enqueue, InlineBottomRenders, IsTopContended, Locations, ReserveTop, _pumpConnections
+ReplicatedStorage.Client.Notifications.Message -> Bottom, Compose, Top
+ReplicatedStorage.Client.Notifications.RoundDeferral -> HoldsBack, TakeAdmissible
+ReplicatedStorage.Client.Notifications.RiftSpawn -> Bottom, Top
+ReplicatedStorage.Client.Notifications.CorruptedAnnouncement -> Create
+ReplicatedStorage.Client.Notifications.SammyPortrait -> Mount
+ReplicatedStorage.Client.SakuraFX -> EmitBurst, PlayCue, PlayLooped
+ReplicatedStorage.Client.GUI -> ButtonActivated, Get
+ReplicatedStorage.Client.Gamepasses -> ConfigForProductId, OwnedFlags, Owns
+ReplicatedStorage.Client.InputIconsConfig -> Changed, Image, Platform
+ReplicatedStorage.Client.Message -> Prompt, PromptGenericFailure
+ReplicatedStorage.Client.Shake -> Play
+ReplicatedStorage.Client.ConsoleSignals -> PressedButton, ReleasedButton
+ReplicatedStorage.Client.SakuraBloomVisibility -> Conceal
+ReplicatedStorage.Client.LightingsCore -> Blend, Capture, CaptureClouds, Commit, CommitClouds, Describe, Draft, MEMBER_ORDER, Resolve, TEXT_STYLE
+ReplicatedStorage.Client.AdminPanelEntry -> CanShowPanel, Changed, SetAdminStatus
+ReplicatedStorage.Client.PlotUpgradeVisibility -> Apply
+ReplicatedStorage.Client.BaseUpgrade -> IsNextTierAffordable, PurchaseNextTier, ResolveNextTier
+ReplicatedStorage.Client.FuseMachineMotion -> Bounce, Burst, Run
+ReplicatedStorage.Client.ModelCameraOcclusion -> Forget, Register, SetEnabled, SetIgnored
+ReplicatedStorage.Client.MusicDirector -> EnterSaveZone, ExitSaveZone, HasCustomTreadmill, SetCarryingAreaEgg, SetEventMusic, SetGuardedGameplay, SetResetNight, SetScrambleActive
+ReplicatedStorage.Client.PlotState -> ContainsLocalPoint, FindLocalBaseSign, FindRespawnCFrame, FolderChanged, LocalPlotChanged, LookupOwner, PlotChanged, ReadOwners, ResolveFolder, ResolveLocalSlot, ResolvePlot
+ReplicatedStorage.Client.Tabs -> Current, Dismiss, Hidden, IsShowing, Show, Shown, Toggle
+ReplicatedStorage.Client.GuardTutorialPresentation -> AnnounceNow, AnnounceTyped, CrossfadeTo, Destroy, DropAnnounce, DropArrow, DropBeam, DropEverything, DropRing, DropScreenClickHint, DropSpeedGoal, DropTapTarget, DropWorldClickHint, MarkSurfaceTapTarget, MarkTapTarget, PinWorldClickHint, PointArrowAt, PointBeamAt, RebaseArrow, RetargetArrow, RetargetBeam, RingButton, SetAnnounceGradient, SetAnnounceHeight, SetScreenClickHint, TrackSpeedGoal, __class, __index, new
+ReplicatedStorage.Client.GuardTutorialPresentation.TutorialHighlightOverlay -> Attach
+ReplicatedStorage.Client.GuardTutorialPresentation.TutorialTapIndicator -> Attach
+ReplicatedStorage.Client.GuardTutorialPresentation.TutorialProp -> Clone, Teardown
+ReplicatedStorage.Client.ButtonHintStrip -> IsPresent, PinLeft, PinRight, Present, PresentStatus, Retract, SetNavigationLayer
+ReplicatedStorage.Client.AssetRoster -> AckEquipBestBadge, AckPetsBadge, DoffAsset, FindPenArea, OwnerCleared, OwnerRefreshed, PenAreaChanged, ReadOwnerPen, ReadSnapshot, ReadWearLimit, SnapshotRefreshed, WearAsset
+ReplicatedStorage.Client.BulkPartMotion -> Commit, Forget, Register
+ReplicatedStorage.Client.GamepadBindings -> AdoptCloseButton, EnableMarkers, FocusScreen, GlyphFor, Inspect, IsOnScreen, MayJump, ReadBrand, Rescan, TrackCloseButton
+ReplicatedStorage.Client.EggState -> BeginHatch, BeginSkipGrowth, CarryChanged, CarryFieldEgg, DoffEggTool, DropFieldEgg, FetchEggRecord, FetchRarityShows, FieldClaimed, FieldGone, FieldRefreshed, FieldShifted, FinishHatch, ForgetChosenSkip, IsReadyToHatch, MayBuyChosenSkip, MayBuyGrowAll, OwnerCleared, OwnerRefreshed, PlantEgg, RarityPresented, RarityRevealed, ReadChosenSkipUid, ReadFieldEgg, ReadFieldEggs, ReadOwnedEgg, ReadOwnedEggs, ReadOwnerEggs, ResetCountdown, ResetFade, SnapshotRefreshed, SyncFieldEggs, SyncOwnedEggs, TakeP
+ReplicatedStorage.Client.Policy -> Get, GetAsync, IsEndlessContentLoadAllowed, IsLoaded, Loaded
+ReplicatedStorage.Client.TreadmillVideoGate -> Changed, IsVideoPlayerDisabled
+ReplicatedStorage.Client.ViewportSize -> Changed, Get, ReadScale
+ReplicatedStorage.Client.UIScaling -> ReadScale
+ReplicatedStorage.Client.Hud -> Every, Find, Frame, Get, Screen, SetTreadmillActive
+ReplicatedStorage.Client.VolumePrefs -> Changed, Get, Set
+ReplicatedStorage.Client.UIEffects -> Bind, Unbind
+ReplicatedStorage.Client.UIEffects.SpriteSheet -> Bind
+ReplicatedStorage.Client.UIEffects.HoverBob -> Bind
+ReplicatedStorage.Client.UIEffects.TextGlitch -> Bind
+ReplicatedStorage.Client.UIEffects.GuiVisibility -> IsVisible, Watch
+ReplicatedStorage.Client.UIEffects.TaggedSprites -> Start
+ReplicatedStorage.Client.HotbarImagePreloadController -> Assert, IsA, new
+ReplicatedStorage.Client.HotbarImagePreloadPolicy -> CLAIM_PRELOAD_DISTANCE_STUDS, GetShortestDistanceToClaimLine, IsSpeedEligible, IsWithinClaimPreloadDistance, ShouldPreloadCarriedEgg
+ReplicatedStorage.Client.ImagePreloader -> Request, RequestAll
+ReplicatedStorage.Client.SpawnLock -> IsLocked, ObtainLock
+ReplicatedStorage.Client.SquareGridSizer -> Bind
+ReplicatedStorage.Client.ShrineFusionController -> 
+ReplicatedStorage.Client.Gifting -> Bind, Open
+ReplicatedStorage.Client.ShrineFusionSequence -> ActiveShrine, Begin, Cancel, FlightFocus, IsPlaying, IsResolving, Payoff
+ReplicatedStorage.Client.GameAudioMute -> Acquire
+ReplicatedStorage.Client.FullscreenPresentation -> Open
+ReplicatedStorage.Client.ForbiddenIslandController -> 
+ReplicatedStorage.Client.StaffEntryHotkey -> Changed, IsHidden
+ReplicatedStorage.Client.MenuNavigation -> Changed, CursorChanged, CursorFailed, IsCursorActive, IsSuspended, PrefersCursor, Release, SaveFailed, SetContext, SetOverride, SetPreference, Suspend, SwitchKey, Toggle, TopOverride
+ReplicatedStorage.Client.Input.TouchTapTracker -> Begin, Evaluate, IsCancelled, IsTrackingInput, Reset, Update, __class, __index, new
+ReplicatedStorage.Client.Util.AssetOddsDisplay -> Compact, Describe, DescribeItem, Resolve
+ReplicatedStorage.Client.Util.ToolSetup -> ApplyCooldown, Attach
+ReplicatedStorage.Client.Util.GunCatalog -> ListGearNames
+ReplicatedStorage.Client.Util.ToolSession -> Follow, GearNameOf, Shut
+ReplicatedStorage.Client.RewardFeedback.SpeedPower -> Announce
+ReplicatedStorage.Client.Types.AssetSizeClassification -> 
+ReplicatedStorage.Client.Types.ChatMsg -> AnnounceData
+ReplicatedStorage.Client.Types.GUI -> 
+ReplicatedStorage.Client.Types.OfflineAssets -> OfflineClaimSummary, OfflineRedeemResult
+ReplicatedStorage.Client.Types.ShakeRequestData -> SchemaValidation
+ReplicatedStorage.Client.Modules.BulkFade -> AddObject, FadeIn, FadeOut, FadeOutInstant, RemoveObject, __index, new
+ReplicatedStorage.Client.Modules.RuntimeInstanceRegistry -> Bind, Changed, Demand, Peek, Release
+ReplicatedStorage.Client.Modules.SakuraBloomPolicy -> CanShowBloom, HasBloomUnlocked
+ReplicatedStorage.Client.Modules.ShakePresets -> BadTrip, Bump, BumpS, DriveCamera, Earthquake, Explosion, HandheldCamera, RoughDriving, Vibration
+ReplicatedStorage.Client.Modules.SpatialTable -> new
+ReplicatedStorage.Client.Modules.RenderBudget -> Destroy, Drain, Drop, DropAll, Submit, __class, __index, new
+ReplicatedStorage.Client.Modules.SurfaceIndex -> Create
+ReplicatedStorage.Client.Modules.ReplicatorClient -> get, init
+ReplicatedStorage.Client.Modules.ReplicatorClient.ReplicatorSignal -> Is, Wrap, new
+ReplicatedStorage.Client.Modules.ReplicatorClient.Buff -> analyze, decode, encode, reset
+ReplicatedStorage.Client.UI.NotificationItemCard -> Build
+ReplicatedStorage.Client.UI.TopText -> ClearChoices, Echo, FadeOut, OfferChoices, Reply, Speak
+ReplicatedStorage.Client.UI.AssetIconShape -> OverlayRainbow, Paint, ResolveImages, Strip, Tint, WireHoverSquash
+ReplicatedStorage.Client.UI.TreadmillStaticCover -> ApplyFeed, ApplyMedia, Create, SetEnabled
+ReplicatedStorage.Client.UI.AssetChatBubble -> Destroy, Mute, PinAbove, Say, __class, __index, new
+ReplicatedStorage.Client.UI.SurfaceButtons -> Find
+ReplicatedStorage.Client.UI.ModelHover -> KeyUnderCursor
+ReplicatedStorage.Client.UI.MessageTyper -> Blank, Halt, ShowAll, Type, __class, __index, new
+ReplicatedStorage.Client.UI.TreadmillStaticRateSign -> Apply
+ReplicatedStorage.Client.UI.SlideDock -> EscortFramesOf, IsOpen, SetOpen, __index, new
+ReplicatedStorage.Client.UI.CrateOpeningSpinner -> Play
+ReplicatedStorage.Client.UI.AlertBadge -> Attach, Destroy, Dismiss, IsShown, SetText, Show, __index, new
+ReplicatedStorage.Client.UI.VFX.GuiTransitionGroup -> Conceal, Halt, Rehome, Reveal, SnapHidden, __class, __index, new
+ReplicatedStorage.Client.UI.VFX.Confetti -> Burst
+ReplicatedStorage.Client.UI.VFX.EasyVisuals -> CurrentEffects, Destroy, Dropshadow, Gradient, Stroke, Suspend, Templates, Wake, __index, new
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.Dropshadow -> Destroy, EaseAlpha, EaseOffset, EaseTint, Suspend, Wake, __index, new
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.Gradient -> AlphaDrift, AlphaPhaseTo, Destroy, Drift, PhaseTo, Recolor, Refade, SetRotation, Spin, Suspend, Wake, __class, __index, new
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates -> Bubblegum, Chrome, CleanGold, Death, Fire, Ghost, Gold, Green, Ice, Lava, Matrix, Oceanic, Rainbow, Silver, Zebra
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Bubblegum -> Color, Transparency
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Chrome -> Color
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Death -> Color
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Fire -> Color
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Ghost -> Color, Transparency
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Gold -> Color
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Green -> Color, Transparency
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Ice -> Color
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Lava -> Color
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Matrix -> Color
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Oceanic -> Color
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Rainbow -> Color
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Silver -> Color
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.Zebra -> Color
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.GradientTemplates.CleanGold -> Color, Rotation
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.Presets -> Bubblegum, ChromeStroke, CleanGold, DeathStroke, FireStroke, Ghost, GhostStroke, Gold, GoldStroke, GreenOutline, IceStroke, Lava, LavaStroke, Matrix, OceanicStroke, Rainbow, RainbowOutline, RainbowStroke, Secret, Shine, ShineOutline, Silver, SilverStroke, WaveStroke, Wrapper
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.Stroke -> Destroy, EaseAlpha, EaseTint, EaseWidth, Suspend, Wake, __index, new
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.Layers -> AcceptsEdge, AlphaStops, Breathe, Edge, FlatPalette, HostColor, Paint, Replay, Result, ShinePalette, Turn
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.StopRamp -> Alpha, Colour, Drift, Restripe, Sample
+ReplicatedStorage.Client.UI.VFX.EasyVisuals.VisibilityGate -> Watch
+ReplicatedStorage.Client.UI.VFX.Rain -> Fall
+ReplicatedStorage.Client.UI.VFX.ImageColorPulse -> Start
+ReplicatedStorage.Client.UI.VFX.SpeedGainPopup -> HideSource, Play, PlayWalk, SetHeadlinePulsing, ShowGainBadge
+ReplicatedStorage.Client.UI.VFX.SellPayout -> Award
+ReplicatedStorage.Client.UI.Effects.ControlResponse -> Bind
+ReplicatedStorage.Client.UI.Effects.SpeedGainPopup -> HideSource, Play, PlayWalk, SetHeadlinePulsing, ShowGainBadge
+ReplicatedStorage.Client.UI.Effects.SellPayout -> Award
+ReplicatedStorage.Client.UI.Effects.EasyVisuals -> CurrentEffects, Destroy, Dropshadow, Gradient, Stroke, Suspend, Templates, Wake, __index, new
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.Dropshadow -> Destroy, EaseAlpha, EaseOffset, EaseTint, Suspend, Wake, __index, new
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.Gradient -> AlphaDrift, AlphaPhaseTo, Destroy, Drift, PhaseTo, Recolor, Refade, SetRotation, Spin, Suspend, Wake, __class, __index, new
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates -> Bubblegum, Chrome, CleanGold, Death, Fire, Ghost, Gold, Green, Ice, Lava, Matrix, Oceanic, Rainbow, Silver, Zebra
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Bubblegum -> Color, Transparency
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Chrome -> Color
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Death -> Color
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Fire -> Color
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Ghost -> Color, Transparency
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Gold -> Color
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Green -> Color, Transparency
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Ice -> Color
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Lava -> Color
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Matrix -> Color
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Oceanic -> Color
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Rainbow -> Color
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Silver -> Color
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.Zebra -> Color
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.GradientTemplates.CleanGold -> Color, Rotation
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.Presets -> Bubblegum, ChromeStroke, CleanGold, DeathStroke, FireStroke, Ghost, GhostStroke, Gold, GoldStroke, GreenOutline, IceStroke, Lava, LavaStroke, Matrix, OceanicStroke, Rainbow, RainbowOutline, RainbowStroke, Secret, Shine, ShineOutline, Silver, SilverStroke, WaveStroke, Wrapper
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.Stroke -> Destroy, EaseAlpha, EaseTint, EaseWidth, Suspend, Wake, __index, new
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.Layers -> AcceptsEdge, AlphaStops, Breathe, Edge, FlatPalette, HostColor, Paint, Replay, Result, ShinePalette, Turn
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.StopRamp -> Alpha, Colour, Drift, Restripe, Sample
+ReplicatedStorage.Client.UI.Effects.EasyVisuals.VisibilityGate -> Watch
+ReplicatedStorage.Client.UI.Effects.GuiTransitionGroup -> Conceal, Halt, Rehome, Reveal, SnapHidden, __class, __index, new
+ReplicatedStorage.Client.UI.Effects.ImageColorPulse -> Start
+ReplicatedStorage.Client.UI.Effects.RewardCelebration -> Play
+ReplicatedStorage.Client.UI.Effects.TwinkleField -> Play
+ReplicatedStorage.Client.WorldFX.ArrowPointer3D -> Destroy, PointAt, PointFrom, Start, Stop, __class, __constants, __index, __types, new
+ReplicatedStorage.Client.WorldFX.Pads -> Destroy, FireEnter, IsOccupied, ObserveEnter, ObserveLeave, __class, __index, new
+ReplicatedStorage.Client.WorldFX.TutorialBeam -> Attach, Destroy, Retarget
+ReplicatedStorage.Client.WorldFX.HoverHighlight -> FadeIn, FadeOut
+ReplicatedStorage.Client.Functions.PromptPurchase -> Prompt
+ReplicatedStorage.Client.Functions.PurchaseSession -> Request
+ReplicatedStorage.Client.WorldPresentation.SurfaceOccupancy -> ContainsPlayer, Dispose, ObserveArrival, ObserveDeparture, SignalArrival, Track, __class, __index
+ReplicatedStorage.Data.Assets -> AssetNameExists, BaseConfig, ByRarity, Directory, Personalities
+ReplicatedStorage.Data.Assets.PersonalityCatalog -> Configs, CreateNewItemData, GetConfig, IsPersonality, Personalities, ResetFirstPlacementForTransfer, Roll, RollTable
+ReplicatedStorage.Data.Assets.Types -> 
+ReplicatedStorage.Data.Assets.LightDarkPlaceholder -> FromTemplate
+ReplicatedStorage.Data.Assets.Configs.Finned Thresher -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.FennecFox -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Jerboa -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Lava Iguana -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Frog -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.DeathstalkerScorpion -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Ringlord -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Eternal Lunar Dragon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Crane -> Animations, BaseModelColor, BaseModelScale, CannotFuse, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Swan -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Bear -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Walrus -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Mangolini Parrochini -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Flaming Bull -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Demon Imp -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Bananita Dolphinita -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.El Maja -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, GenderLocked, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Cave Dragon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Burrowing Owl -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Mosasaurus -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.TyrannosaurusRex -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkAnimationReferenceSpeed, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Kraken -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Duckling -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Dragon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Parrotfish -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Penguin -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkAnimationReferenceSpeed, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Polar Bear -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Pterodactyl -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Red Panda -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Sabertooth Tiger -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Void Dragon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Sand Spider -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.ScorchedDragon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Koi -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Shadow Dragon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Snowy Owl -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Crocodile -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Colossal Mammoth -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, GenderLocked, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Dog -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Alabaster Whale -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Bronto -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Spider -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Strawberry Elephant -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Baby Aurora Dragon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Ash Gecko -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Cyclops Gorilla -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.La Vacca Saturno Saturnita -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, GenderLocked, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Tob Tobi Tob Tob -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, GenderLocked, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Tralaledon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Tung Tung Sahur -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Alien Skeleton Boss -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, GenderLocked, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Centapede -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkAnimationReferenceSpeed, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Turtle -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Camel -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Dodo -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Basilisk -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Orca -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Salamander -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Mammoth -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.DesertLark -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Stag -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Catfish -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Warden -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, GenderLocked, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Trulimero Trulicina -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Yeti -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, GenderLocked, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Irihorus -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Swordfish -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Bomboclat Crocolat -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Oni Tiger -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Raccoon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Chillin Chilli -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, GenderLocked, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Ascended Vermilion Phoenix -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Lava frog -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Chicken -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Orangutini Ananassini -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, GenderLocked, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Whale Shark -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Belula Beluga -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Ice Dragon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Rattlesnake -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Triceratops -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Gorilla -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Chimpanzee -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Unicorn -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Archdemon Dragon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Toucan -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Brr Brr Patapim -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, GenderLocked, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Ember Dragon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Mire Fox -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Balrog -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Kitsune -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Dream Axolotl -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Ankylosaurus -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Galaxy Gecko -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Ring Guard -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Tiger -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkAnimationReferenceSpeed, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Hellhound -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Cerberus -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, GenderLocked, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkAnimationReferenceSpeed, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Mecha Scorpio -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Mecha Froggo -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Mecha Crawler -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Mecha Crocodon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Mecha Krakenoid -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Mecha Dreadscale -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Scorpio -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Froggo -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Crawler -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Crocodon -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Krakenoid -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Dreadscale -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Crab -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Rhino -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Mantis -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Kaiju Spider -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Shark -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Blade Head -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.King Kong -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Godzilla -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Drill Monster -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Dreadclaw -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Shardwing -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Ventinal -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Wendigo -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Mawbreaker -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Shattered Colossus -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.World Eater -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Shattered Drake -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Void Serpent -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Voidmaw -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Rift Eye -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Shardling -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Shattered Ram -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Riftwing -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Void Angler -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Abyssal Overlord -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Abyssal Overlord OP -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Dove -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Flame Sprite -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Lamb -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Toro -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Moth -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Imp -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Peacock -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Depths Terra Snapper -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Jellyfish -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Dark Gargoyle -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Centaur -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.RazorFang -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Demon Hound -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Depths Cthulhu -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Terra Snapper -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Depths Megalodon -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.ArchAngel -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Aetheron -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Equinox -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Pegasus -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Skeleton Horse -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.World Burner -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Manta Ray -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Spike -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Riptide Octopus -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Electric Eel -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Megalodon -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Cthulhu -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Depths Manta Ray -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Depths Spike -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Depths Riptide Octopus -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.Depths Electric Eel -> AlbinosColorFullWhite, Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, RandomIdleSound, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.LimitedTimeExperimentPet -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.Nibbles #013 -> Animations, BaseModelColor, BaseModelScale, DisplayName, DontRoll, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, _id
+ReplicatedStorage.Data.Assets.Configs.67 -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Assets.Configs.67 OP -> Animations, BaseModelColor, BaseModelScale, DisplayName, DropWeight, EarningRate, Egg, Icon, IndexSpeedReward, LimitedEggViewportScale, LimitedEggViewportVerticalOffset, ModelWeight, PossibleModelColors, Rarity, VisualOdds, WalkSound, _id
+ReplicatedStorage.Data.Bases -> BASES, GetAssetEquipCapacity, GetBaseConfigFor, GetMaxBaseLevel, MAX_ASSET_EQUIP_CAPACITY, MIN_ASSET_EQUIP_CAPACITY, SKINS
+ReplicatedStorage.Data.Currency -> CurrencyNameExists, Directory
+ReplicatedStorage.Data.Currency.Configs.SpinnyWheelTickets -> Desc, DisplayName, Icon, Rarity, Sounds, _id
+ReplicatedStorage.Data.Currency.Configs.SakuraCrystals -> Desc, DisplayName, Icon, Rarity, Sounds, _id
+ReplicatedStorage.Data.Currency.Configs.Money -> Desc, DisplayName, Icon, Instance, Rarity, Sounds, _id
+ReplicatedStorage.Data.Currency.Configs.BossTokens -> Desc, DisplayName, Icon, Rarity, _id
+ReplicatedStorage.Data.AreaEggResetCycle -> DayLightingTransitionSeconds, LightingModifierPriority, MoonIcon, MusicTransitionSeconds, NightIconFadeOutSeconds, NightLighting, NightLightingStartDelaySeconds, NightLightingTransitionSeconds, NightMusic, SleepIconFadeSeconds, SunIcon, TeleportFadeHoldSeconds, TeleportFadeSeconds, WallCountdownDelayAfterDayStartsSeconds, WallCountdownSeconds, WallEntryPenetrationBufferStuds, WallEntryReturnBufferStuds, WallEntryRollbackSampleMaxAgeSeconds, WallServerEntryGuardStartDelaySeconds
+ReplicatedStorage.Data.Gamepasses -> ByProductId, Directory
+ReplicatedStorage.Data.Gamepasses.Configs.X2Money -> Desc, DisplayName, Icon, ProductId, _id
+ReplicatedStorage.Data.Gamepasses.Configs.X2Growth -> Desc, DisplayName, Icon, ProductId, _id
+ReplicatedStorage.Data.Gamepasses.Configs.Lucky -> Desc, DisplayName, Icon, ProductId, _id
+ReplicatedStorage.Data.Lightings -> Directory, Types
+ReplicatedStorage.Data.Lightings.Types.Interface -> AtmosphereConfig, BloomConfig, BlurConfig, CloudsConfig, ColorCorrectionConfig, DepthOfFieldConfig, LightingConfig, SkyConfig, SunRaysConfig
+ReplicatedStorage.Data.Lightings.Types.Schema -> AtmosphereConfig, BloomConfig, BlurConfig, CloudsConfig, ColorCorrectionConfig, DepthOfFieldConfig, LightingConfig, SkyConfig, SunRaysConfig
+ReplicatedStorage.Data.LimitedEgg -> DisplayName, DropTable, EndsAt, Entries, InfoText, MechaReroll, Offers
+ReplicatedStorage.Data.LimitedEgg.Types.Interface -> 
+ReplicatedStorage.Data.GuardTutorialSteps -> GetFirstStepId, GetIndex, GetNextStepId, GetOrderedStepIds
+ReplicatedStorage.Data.Products -> ByProductId, DataByProductId, Directory, GetEggSkipGrowthProduct, ProductNameExists, SmallestSufficientSpeedPowerProduct, TreadmillSpeedEquivalentOffers
+ReplicatedStorage.Data.Products.Internal.MarketplaceValidator -> Validate
+ReplicatedStorage.Data.Products.Internal.GeneratedProducts -> Directory, TreadmillSpeedEquivalentOffers
+ReplicatedStorage.Data.Products.Internal.ProductTypes -> 
+ReplicatedStorage.Data.Products.Builders.TreadmillSpeedEquivalent -> Create
+ReplicatedStorage.Data.Products.Builders.EggSkipGrowth -> Create
+ReplicatedStorage.Data.Products.Builders.RiftRefresh -> Create
+ReplicatedStorage.Data.Rarity -> Rarities, RarityNameExists
+ReplicatedStorage.Data.Rarity.Configs.Basic -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.BrainrotGod -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Celestial -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Common -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Cosmic -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Divine -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Epic -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Eternal -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Exclusive -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Exotic -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Legendary -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Limited -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Mythic -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Mythical -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Rainbow -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Rare -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Secret -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.SuperRare -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Superior -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Uncommon -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.Titan -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Rarity.Configs.LightDark -> Announce, Color, DefaultRarityValue, DisplayName, ItemTemplate, Message, RarityGradient, RarityNumber, _id
+ReplicatedStorage.Data.Trails -> Directory, TrailNameExists
+ReplicatedStorage.Data.Treadmills -> Directory, GetByUpgradeLevel, GetOrdered, GetUpgradeLevel, TreadmillNameExists
+ReplicatedStorage.Data.Treadmills.Configs.Treadmill -> DisplayInShop, DisplayName, Icon, Price, Rarity, SpeedMultiplier, _id
+ReplicatedStorage.Data.Treadmills.Configs.The FreezeTreadmill -> DisplayInShop, DisplayName, Icon, Price, ProductId, Rarity, SpeedMultiplier, _id
+ReplicatedStorage.Data.Treadmills.Configs.Sci-FiTreadmill -> DisplayInShop, DisplayName, Icon, Price, ProductId, Rarity, SpeedMultiplier, _id
+ReplicatedStorage.Data.Treadmills.Configs.Lucky BlockTreadmill -> DisplayInShop, DisplayName, Icon, Price, ProductId, Rarity, SpeedMultiplier, _id
+ReplicatedStorage.Data.Treadmills.Configs.HackerTreadmill -> DisplayInShop, DisplayName, Icon, Price, ProductId, Rarity, SpeedMultiplier, _id
+ReplicatedStorage.Data.Treadmills.Configs.GoldenTreadmill -> DisplayInShop, DisplayName, Icon, Price, ProductId, Rarity, SpeedMultiplier, _id
+ReplicatedStorage.Data.Treadmills.Configs.FlameTreadmill -> DisplayInShop, DisplayName, Icon, Price, ProductId, Rarity, SpeedMultiplier, _id
+ReplicatedStorage.Data.Treadmills.Configs.DemonicTreadmill -> DisplayInShop, DisplayName, Icon, Price, ProductId, Rarity, SpeedMultiplier, _id
+ReplicatedStorage.Data.Treadmills.Configs.CelebrityTreadmill -> DisplayInShop, DisplayName, Icon, Price, ProductId, Rarity, SpeedMultiplier, _id
+ReplicatedStorage.Data.Treadmills.Configs.AngelicTreadmill -> DisplayInShop, DisplayName, Icon, Price, ProductId, Rarity, SpeedMultiplier, _id
+ReplicatedStorage.Data.Treadmills.Configs.AstralTreadmill -> DisplayInShop, DisplayName, Icon, Price, ProductId, Rarity, SpeedMultiplier, _id
+ReplicatedStorage.Data.Guards -> Directory, GetHighestWalkSpeed, GetLowestWalkSpeed, GuardNameExists
+ReplicatedStorage.Data.Guards.Types -> 
+ReplicatedStorage.Data.Guards.Configs.Volcano -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, EggPickupDistance, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Snow -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Prehistoric -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, EggPickupDistance, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Lake -> AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Jungle -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Forest -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Desert -> AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Cosmic -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Cherry Blossom -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Abyss Ocean -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, EggPickupDistance, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Titan Temple -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Light Dark -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Light Dark Light -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Light Dark Dark -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Guards.Configs.Light Dark Mixed -> AfterWakeSound, AnimationBaseWalkSpeed, AttackAnimation, AttackSound, FlatRadius, FootstepSound, HitDistance, HomeImpulseBoostDistanceXZ, IdleAnimation, Rarity, SleepAnimation, SleepSound, WakeSound, WalkAnimation, WalkSpeed, _id
+ReplicatedStorage.Data.Areas -> AreaNameExists, Directory
+ReplicatedStorage.Data.Areas.Types -> 
+ReplicatedStorage.Data.Areas.Configs.Volcano -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Rarity, _id
+ReplicatedStorage.Data.Areas.Configs.Snow -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Rarity, _id
+ReplicatedStorage.Data.Areas.Configs.Prehistoric -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Rarity, _id
+ReplicatedStorage.Data.Areas.Configs.Lake -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Rarity, _id
+ReplicatedStorage.Data.Areas.Configs.Jungle -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Rarity, _id
+ReplicatedStorage.Data.Areas.Configs.Forest -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Rarity, _id
+ReplicatedStorage.Data.Areas.Configs.Desert -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Rarity, _id
+ReplicatedStorage.Data.Areas.Configs.Cosmic -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Rarity, _id
+ReplicatedStorage.Data.Areas.Configs.Cherry Blossom -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Lighting, Rarity, _id
+ReplicatedStorage.Data.Areas.Configs.Abyss Ocean -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Rarity, _id
+ReplicatedStorage.Data.Areas.Configs.Titan Temple -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Rarity, _id
+ReplicatedStorage.Data.Areas.Configs.Light Dark -> Color, DisplayName, DropTable, Emoji, GuardId, Icon, IndexBatGearId, Rarity, Reveal, SubBiomes, _id
+ReplicatedStorage.Data.Gears -> Directory, GearNameExists
+ReplicatedStorage.Data.Gears.Types -> 
+ReplicatedStorage.Data.Gears.Configs.Volcano Bat -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Trap -> ActiveDeploymentAttribute, Description, DisplayInShop, DisplayName, Icon, MaxActiveDeployments, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, _id
+ReplicatedStorage.Data.Gears.Configs.Snow Bat -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Titan Axe -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Forest Bat -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Prehistoric Bat -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Bat -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Abyss Ocean Bat -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Flyswatter -> ControllerData, Description, DisplayInShop, DisplayName, Icon, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, SlapPower, ToolController, _id
+ReplicatedStorage.Data.Gears.Configs.Desert Bat -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Lake Bat -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Katana -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Jungle Bat -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Cosmic Bat -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.BeeLauncher -> Description, DisplayInShop, DisplayName, Icon, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, _id
+ReplicatedStorage.Data.Gears.Configs.GravityDisruptor -> ActiveDeploymentAttribute, Description, DisplayInShop, DisplayName, Icon, MaxActiveDeployments, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.Light Dark Staff -> BatControllerData, Description, DisplayInShop, DisplayName, Icon, IndexBatTier, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Gears.Configs.The Scrambler -> ControllerData, Description, DisplayInShop, DisplayName, Icon, MaxShopStockQuantity, MinShopStockQuantity, MoneyCost, Persistent, Rarity, ShopDropWeight, SinglePurchase, SlapPower, ToolController, ToolModel, _id
+ReplicatedStorage.Data.Badges -> GOT_ANGELIC_TREADMILL, GOT_DIVINE_TRAIL, HATCHED_DIVINE_ASSET, HATCHED_ETERNAL_ASSET, HATCHED_SECRET_ASSET
+ReplicatedStorage.Data.TreadmillMediaCatalog -> BASELINE_MEDIA_COUNT, BASELINE_RELEASE_VERSION, CURRENT_RELEASE_VERSION, ResolveEntryReleaseVersion
+ReplicatedStorage.Data.AdminAbuseEgg -> DropTable, EggDisplayName, GetTotalWeight, IsEventCategory, Roll
+ReplicatedStorage.Data.DragonEgg -> AssetScalePerReturn, BaseAssetScale, CarryCategory, DropTable, EggDisplayName, GetAssetScale, GetCountedReturns, GetEntryWeight, GetNestVisualScale, GetTotalWeight, IsEventCategory, MaxCountedReturns, NestBaseScale, NestScalePerReturn, RestoreDropTable, RewardCategory, RewardEggDisplayName, Roll, RollRestore
+ReplicatedStorage.Data.Sakura -> AreaDisplay, BatToolAttribute, Bloom, CanBuyLuckBoost, CrystalTag, CurrencyId, EventName, GetChargePercent, GetEffectiveMutationChance, GetFreeChargeCap, GetLuckMultiplier, GetMutationChance, GetRequiredCrystals, GetSpecialChance, GetTreeSize, HasSakuraMutation, Incubator, IsBatTool, MutationName, PickTreeSize, Quest, Sounds, SpecialMutationName, TreeTag
+ReplicatedStorage.Data.CaptureTheEgg -> BroadcastIconImage, CarryCategory, CutsceneFallSeconds, DanceAnimationId, EggDisplayName, EggHighlightColor, EggScale, EggUidAttribute, EventDisplayName, FallbackMarkerName, LandingRotationDegrees, LandingSinkStuds, R6DanceAnimationId, RewardCategory, RewardScale, ScoreboardVisibleRows, SpawnMarkerName, StarterRigName
+ReplicatedStorage.Data.ExpandedLobby -> ApplyDeadlineSeconds, Groups, IsValidGroup, JobAttributeWaitSeconds, PlotSpread, RemovalTag, ServerAttribute, ServerTypeAttributeKey, StudioForceAttribute, TeleportDataKey, TestAttributeKey, UnlockedValue
+ReplicatedStorage.Data.MonsterParasite -> AssetsFolderName, BellyPartName, BellyStages, BellyTweenDuration, BoostDurationSeconds, BoostMultiplier, BurpBeatDuration, BurpMarkerName, BurpSoundName, ChargePerFeed, ChestBounceDuration, ChestBounceHeight, ChestGroundProbeDepth, ChestGroundProbeHeight, ChestGroundRestDuration, ChestImpactShakeFadeIn, ChestImpactShakeFadeOut, ChestImpactShakeMagnitude, ChestImpactShakeRange, ChestImpactShakeRoughness, ChestLandingSoundName, ChestLaunchBeatFallback, ChestLaunchDelay, ChestLaunchDuration, ChestL
+ReplicatedStorage.Data.BrainrotEgg -> BackgroundImage, DisplayName, DropTable, Entries
+ReplicatedStorage.Data.SfxRework -> Global, GuardFootstepLegacy, GuardFootstepNew, NewAnimalSfx, NewCherryBlossomSfx, Resolve
+ReplicatedStorage.Data.BossMastery -> ClaimableInfiniteCount, FillMissingReveals, FinalMilestone, GetInfiniteReward, GetInfiniteRewardId, GetMilestone, GetMilestoneKills, GetMilestonePresentation, GetMilestoneReward, GetMilestoneRewardId, GetRewardPresentation, GetRotationBannerWeights, GetShopDisplayName, GetShopPrice, GetShopProduct, GetShopProducts, GetShopQuantity, GetShopQuantityText, GetTokenBoostPercent, InfiniteMilestoneId, InfiniteRevealKey, IsShopProductListed, Milestones, MutationId, NextMilestoneFor, RewardNeedsReveal, R
+ReplicatedStorage.Data.BossEvent -> BossName, ClampDuration, CurrentPeriod, CurrentWindow, HealthMultiplier, IntervalSeconds, PeriodStart, PlaySound, PlaySoundEverywhere, SecondsUntilNextOpen, SetAudience
+ReplicatedStorage.Data.Rift -> BannerContainsPet, BannerIdForPeriod, BannerIds, Banners, ChasePetId, CurrentBannerId, CurrentPeriod, GetBanner, GetBannerDisplayName, GetBannerEggIcon, GetBannerEggSkin, GetBannerRange, GetBannerWeight, GetPetWeight, GetRecipeSlot, PetOverrideKey, PityPool, RecipeSlots, RequirementCount, RollPet, RollPityPet, RotationSeconds, SecondsUntilRotation
+ReplicatedStorage.Data.EggSkins -> Directory, Get
+ReplicatedStorage.Data.LightVsDarkness -> DecodeRings, EncodeRings, MILESTONES, MilestoneAttribute, MilestoneEggCategory, MilestoneIcon, MilestoneKey, MilestoneQuantity, RARITIES, RollRarity, Template, ZoneIndexAt, Zones
+ReplicatedStorage.Data.GiftProductsMapping -> X2Growth, X2Money
+ReplicatedStorage.Data.FallenPowerUp -> AbsorbSeconds, ActiveUntil, Announce, AttributeFor, AttributePrefix, BeaconBaseStuds, BeaconHeightStuds, BeaconTexture, BeaconWidthStuds, BobSpeed, BobStuds, BurstGlowTexture, BurstOriginScale, BurstShockTexture, DropScatterStuds, FallEase, FallTimeFarScale, FallTimeNearScale, FlightScale, GlobalBumpIntensity, GlobalBumpSeconds, HeadCloneBobStuds, HeadCloneGapStuds, HeadCloneHoverStuds, HeadCloneScale, HeadCloneSpinSpeed, HeadCoreScale, HeadGlowTexture, HeadPixelMax, HeadPixelMin, HeadPixelRef, 
+ReplicatedStorage.Data.MonsterEgg -> BackgroundImage, DisplayName, DropTable, Entries, MechaEntries
+ReplicatedStorage.Data.SammyEvent -> ChargeMax, DecodePickups, EncodePickups, PHASES, PickupRadius, PickupTemplate, SpinSpeed, ZoneIndexAt, Zones
+ReplicatedStorage.Data.Sounds.Languages.Alphabet -> Normal
